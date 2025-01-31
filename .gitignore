@@ -1,0 +1,5 @@
+
+#IDE local files to ignore
+*.idea
+.env
+
