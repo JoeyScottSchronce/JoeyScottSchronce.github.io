@@ -1,5 +1,5 @@
 import './App.css';
-import Starter from './Components/starter/Starter.jsx';
+import Starter from './Components/starter/Starter.js';
 
 function App() {
     return (
