@@ -32,30 +32,6 @@ function Starter() {
 
         return (
             <div>
-                <div></div>
-                <div>
-                    <div id="home">
-                        <div className="profile_name">
-                            Joey Scott Schronce
-                            <div className="contact_info">
-                                <img src="/src/assets/envelope.png" alt="envelope" />
-                                example1234@email.com
-                            </div>
-                            <div style={{ clear: 'both' }}></div>
-                            <div className="contact_info">
-                                <img src="/src/assets/phone.png" alt="phone" />
-                                +1 (555) 867 - 5309
-                            </div>
-                        </div>
-                        <div className="topdiv">
-                            <a className="topmenu">About Me</a>
-                            <a className="topmenu">Skills</a>
-                            <a className="topmenu">Projects</a>
-                            <a className="topmenu">Recommendations</a>
-                        </div>
-                    </div>
-                </div>
-
                 {/* About Me */}
                 <section id="about-me" className="container">
                     <div>
