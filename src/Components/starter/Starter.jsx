@@ -36,7 +36,7 @@ function Starter() {
                 <section id="about-me" className="container">
                     <div>
                         <img
-                            src="/JoeyScottSchronce.github.io/src/assets/Professional%20Photo%20(2020).jpg"
+                            src="/assets/Professional%20Photo%20(2020).jpg"
                             className="profile_image"
                             alt="photo of Joey Schronce"
                         />
@@ -44,7 +44,7 @@ function Starter() {
                     <div>
                         <h1>
                             Hello! My name is <br /> Joey Scott Schronce!{' '}
-                            <img src="/src/assets/waving-hand.png" alt="waving hand" width="60px" />
+                            <img src="/assets/waving-hand.png" alt="waving hand" width="60px" />
                         </h1>
                     </div>
                 </section>
@@ -64,25 +64,25 @@ function Starter() {
 
                     <div className="all_skills">
                         <div className="skill">
-                            <img src="/src/assets/html5.png" alt="html logo" />
+                            <img src="/assets/html5.png" alt="html logo" />
                             <h6>HTML</h6>
                             <p>4 months</p>
                         </div>
 
                         <div className="skill">
-                            <img src="/src/assets/CSS3.png" alt="css logo" />
+                            <img src="/assets/CSS3.png" alt="css logo" />
                             <h6>CSS</h6>
                             <p>4 months</p>
                         </div>
 
                         <div className="skill">
-                            <img src="/src/assets/js.jpeg" alt="javascript logo" />
+                            <img src="/assets/js.jpeg" alt="javascript logo" />
                             <h6>JavaScript</h6>
                             <p>4 months</p>
                         </div>
 
                         <div className="skill">
-                            <img src="/src/assets/react.png" alt="react logo" />
+                            <img src="/assets/react.png" alt="react logo" />
                             <h6>React</h6>
                             <p>1 month</p>
                         </div>
