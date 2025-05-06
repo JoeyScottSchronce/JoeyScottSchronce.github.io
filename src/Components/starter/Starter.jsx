@@ -32,6 +32,7 @@ function Starter() {
 
         return (
             <div>
+                <div className="top"></div>
                 {/* About Me */}
                 <section id="about-me" className="container">
                     <div>
@@ -42,8 +43,8 @@ function Starter() {
                         />
                     </div>
                     <div>
-                        <h1>
-                            Hello! My name is <br /> Joey Scott Schronce!{' '}
+                        <h1 className="title">
+                            Hi! Welcome to <br/> my portfolio {' '}
                             <img src="/assets/waving-hand.png" alt="waving hand" width="60px" />
                         </h1>
                     </div>
