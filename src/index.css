@@ -1,5 +1,10 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.top {
+  margin-top: 6rem;
 }
 
 /* Navigation Bar */
@@ -17,7 +22,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  color: var(--primary-color);
+  color: var(--header-color);
   font-size: medium;
 }
 
@@ -68,6 +73,8 @@ h2 {
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* About Me */
@@ -80,7 +87,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 50px;
-  color: var(--primary-color);
+  color: var(--header-color);
 }
 
 #about-me p {
@@ -90,10 +97,9 @@ h2 {
 }
 
 .profile_image {
+  clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 20% 50%, 0% 0%);
   width: 300px;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 50px;
+  margin: 3rem;
 }
 
 /* Skills */
