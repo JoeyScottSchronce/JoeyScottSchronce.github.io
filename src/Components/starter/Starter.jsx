@@ -36,7 +36,7 @@ function Starter() {
                 <section id="about-me" className="container">
                     <div>
                         <img
-                            src="/src/assets/Professional%20Photo%20(2020).jpg"
+                            src="/JoeyScottSchronce.github.io/src/assets/Professional%20Photo%20(2020).jpg"
                             className="profile_image"
                             alt="photo of Joey Schronce"
                         />
