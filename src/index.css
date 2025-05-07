@@ -1,40 +1,5 @@
 
-/* Navigation Bar */
-
-#home {
-  background-color: var(--primary-color);
-  margin-left: -1cm;
-  margin-right: -1cm;
-  margin-top: -1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
-  height: 5mm;
-}
-
-.profile_name {
-  float: left;
-  padding-left: 2cm;
-  color: var(--header-color);
-  font-size: medium;
-}
-
-.profile_name .contact_info {
-  font-size: 15px;
-  font-style: italic;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-
-.contact_info img {
-  width: 25px;
-  margin-right: 10px;
-  float: left;
-}
-
 /* Titles */
-
-
 
 .main-p {
   font-size: 30px;
@@ -53,39 +18,6 @@
   margin-bottom: 20px;
   animation-duration: 5s;
   position: relative;
-}
-
-/* Used in the About Me sections */
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-/* About Me */
-
-.about-me {
-  display: flex;
-  align-items: center;
-}
-
-#about-me h1 {
-  font-size: 65px;
-  margin-top: 50px;
-  color: var(--header-color);
-}
-
-#about-me p {
-  font-size: 25px;
-  color: var(--header-color);
-  margin-top: -1cm;
-}
-
-.profile_image {
-  clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
-  width: 300px;
-  margin: 3rem;
 }
 
 /* Skills */

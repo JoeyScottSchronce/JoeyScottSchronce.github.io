@@ -32,24 +32,7 @@ function Starter() {
 
         return (
             <div>
-                <div className="top"></div>
                 {/* About Me */}
-                <section id="about-me" className="container">
-                    <div>
-                        <img
-                            src="/assets/Professional%20Photo%20(2020).jpg"
-                            className="profile_image"
-                            alt="photo of Joey Schronce"
-                        />
-                    </div>
-                    <div>
-                        <h1 className="title">
-                            Welcome to <br/> my portfolio!
-                        </h1>
-                        <p>Secondary heading to add attention to the Hero Section</p>
-                        <button>Click me</button>
-                    </div>
-                </section>
                 <div className="main-p">
                     <p>
                         I'm in the process of developing a strong foundation in Web Development and Software Engineering. I am excited to
