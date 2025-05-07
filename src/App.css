@@ -4,10 +4,6 @@
     --header-color: #7F5112;
 }
 
-.top {
-    margin-top: 6rem;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--secondary-color);
