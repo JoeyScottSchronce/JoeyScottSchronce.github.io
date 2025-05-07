@@ -44,9 +44,10 @@ function Starter() {
                     </div>
                     <div>
                         <h1 className="title">
-                            Hi! Welcome to <br/> my portfolio {' '}
-                            <img src="/assets/waving-hand.png" alt="waving hand" width="60px" />
+                            Welcome to <br/> my portfolio!
                         </h1>
+                        <p>Secondary heading to add attention to the Hero Section</p>
+                        <button>Click me</button>
                     </div>
                 </section>
                 <div className="main-p">
