@@ -3,6 +3,7 @@ import Starter from './Components/starter/Starter.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import HeroSection from "./Components/HeroSection/HeroSection.jsx";
 import AboutSection from "./Components/AboutSection/AboutSection.jsx";
+import ProjectSection from "./Components/ProjectSection/ProjectSection.jsx";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <NavBar />
             <HeroSection />
             <AboutSection />
+            <ProjectSection />
             <Starter />
         </>
     );
