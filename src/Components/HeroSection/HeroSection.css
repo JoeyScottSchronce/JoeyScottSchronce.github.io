@@ -4,9 +4,10 @@
 }
 
 #HeroSection button {
-    background-color: var(--light-base);
+    background-color: white;
     border: 1px solid var(--secondary-color);
-    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color);
     display: block;
     border-radius: 6px;
     text-align: center;

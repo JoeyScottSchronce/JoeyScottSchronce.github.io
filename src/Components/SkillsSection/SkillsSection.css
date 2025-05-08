@@ -10,15 +10,16 @@
 }
 
 .skill {
-    border: 1px solid gray;
+    border: 1px solid var(--secondary-color);
+    background-color: white;
     display: block;
     border-radius: 6px;
     text-align: center;
     margin: 50px;
     padding: 10px;
     width: 2in;
-    font-size: 20px;
-    box-shadow: 0 3px 10px gray;
+    font: var(--p);
+    box-shadow: var(--box-shadow);
 }
 
 .skill img {
