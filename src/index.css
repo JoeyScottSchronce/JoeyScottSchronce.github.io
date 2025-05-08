@@ -4,14 +4,6 @@ a {
   text-decoration: none;
 }
 
-.main-p {
-  font-size: 30px;
-  text-align: center;
-  float: left;
-  margin: 30px 50px 20px;
-  animation-duration: 5s;
-  position: relative;
-}
 
 .introduction {
   font-size: 30px;

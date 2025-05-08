@@ -2,47 +2,8 @@ import React from 'react';
 
 function Starter() {
 
-//    let recommendation = document.getElementById("new_recommendation");
-//    // If the user has left a recommendation, display a pop-up
-//    if (recommendation.value != null && recommendation.value.trim() !== "") {
-//        console.log("New recommendation added");
-//        //Call showPopup here
-//        showPopup(true);
-//    }
-//
-//    // Get the message of the new recommendation
-//
-//    // Create a new 'recommendation' element and set its value to the user's message
-//    let element = document.createElement("div");
-//    element.setAttribute("class","recommendation");
-//    element.innerHTML = "\<span\>&#8220;\</span\>" + recommendation.value + "\<span\>&#8221;\</span\>";
-//    // Add this element to the end of the list of recommendations
-//    document.getElementById("all_recommendations").appendChild(element);
-//
-//    // Reset the value of the textarea
-//    recommendation.value = "";
-//
-//    function showPopup(bool) {
-//        if (bool) {
-//            document.getElementById('popup').style.visibility = 'visible'
-//        } else {
-//            document.getElementById('popup').style.visibility = 'hidden'
-//        }
-//    }
-
         return (
             <div>
-                {/* About Me */}
-                <section id="About">
-                    <h2>About</h2>
-                    <div style={{ clear: 'both' }}></div>
-                    <p className="main-p">
-                        I'm in the process of developing a strong foundation in Web Development and Software Engineering. I am excited to
-                        embark on a fulfilling journey where I can continuously learn and grow while making meaningful contributions. I am
-                        seeking an entry-level position in one of these fields and I'm eager to apply my growing knowledge and skills to
-                        begin my new career.
-                    </p>
-                </section>
 
                 {/* Projects */}
                 <section className="projects" id="Projects">
