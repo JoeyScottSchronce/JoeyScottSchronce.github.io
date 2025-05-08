@@ -13,7 +13,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     z-index: 20;
 }
 
@@ -29,12 +29,12 @@ nav {
     padding-right: 1em;
     font-size: 20px;
     font-weight: bold;
-    color: var(--header-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
 .nav-items:hover {
-    color: var(--secondary-color);
+    color: var(--light-base);
     transform: scale(1.10);
 }
 
@@ -44,10 +44,10 @@ nav {
     padding-right: 0.5em;
     font-size: 40px;
     font-weight: bold;
-    color: var(--header-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 .nav-main:hover {
-    color: var(--secondary-color);
+    color: var(--light-base);
     transform: scale(1.10);
 }
