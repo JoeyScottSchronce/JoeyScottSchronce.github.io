@@ -9,10 +9,15 @@ function App() {
     return (
         <>
             <NavBar />
+            <section id="Top"><div className="spacer"></div></section>
             <HeroSection />
+            <section id="About"><div className="spacer"></div></section>
             <AboutSection />
+            <section id="Projects"><div className="spacer"></div></section>
             <ProjectSection />
+            <section id="Skills"><div className="spacer"></div></section>
             <SkillsSection />
+            <div className="spacer"></div>
         </>
     );
 }

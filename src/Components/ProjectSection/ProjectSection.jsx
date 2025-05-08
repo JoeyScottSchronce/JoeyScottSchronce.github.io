@@ -5,7 +5,7 @@ function ProjectSection() {
     return (
         <div id="ProjectSection">
             {/* Projects */}
-            <section id="Projects">
+            <section>
                 <h2>Projects</h2>
                 <div style={{ clear: 'both' }}></div>
 
@@ -91,7 +91,6 @@ function ProjectSection() {
                             <button id="Project-button" className="button">Project Repository</button>
                         </a>
                     </div>
-                    <hr />
                 </div>
             </section>
         </div>

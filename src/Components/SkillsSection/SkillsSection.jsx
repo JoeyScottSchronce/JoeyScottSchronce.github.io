@@ -6,7 +6,7 @@ function SkillsSection() {
         <div id="SkillsSection">
 
             {/* Skills */}
-            <section id="Skills">
+            <section>
                 <h2>Skills</h2>
                 <div style={{ clear: 'both' }}></div>
 

@@ -1,4 +1,3 @@
-import react from 'react';
 import "./AboutSection.css"
 import React from "react";
 
@@ -6,7 +5,7 @@ function AboutSection() {
     return (
         <div className="AboutSection">
             {/* About Me */}
-            <section id="About">
+            <section>
                 <h2>About</h2>
                 <div style={{ clear: 'both' }}></div>
                 <p className="main-p">
