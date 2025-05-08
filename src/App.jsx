@@ -1,9 +1,9 @@
 import './App.css';
-import Starter from './Components/starter/Starter.jsx';
 import NavBar from './Components/NavBar/NavBar.jsx';
 import HeroSection from "./Components/HeroSection/HeroSection.jsx";
 import AboutSection from "./Components/AboutSection/AboutSection.jsx";
 import ProjectSection from "./Components/ProjectSection/ProjectSection.jsx";
+import SkillsSection from "./Components/SkillsSection/SkillsSection.jsx";
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
             <HeroSection />
             <AboutSection />
             <ProjectSection />
-            <Starter />
+            <SkillsSection />
         </>
     );
 }
