@@ -42,38 +42,6 @@ function Starter() {
                     </p>
                 </section>
 
-                {/* Skills */}
-                <section id="Skills">
-                    <h2>Skills</h2>
-                    <div style={{ clear: 'both' }}></div>
-
-                    <div className="all_skills">
-                        <div className="skill">
-                            <img src="/assets/html5.png" alt="html logo" />
-                            <h6>HTML</h6>
-                            <p>4 months</p>
-                        </div>
-
-                        <div className="skill">
-                            <img src="/assets/CSS3.png" alt="css logo" />
-                            <h6>CSS</h6>
-                            <p>4 months</p>
-                        </div>
-
-                        <div className="skill">
-                            <img src="/assets/js.jpeg" alt="javascript logo" />
-                            <h6>JavaScript</h6>
-                            <p>4 months</p>
-                        </div>
-
-                        <div className="skill">
-                            <img src="/assets/react.png" alt="react logo" />
-                            <h6>React</h6>
-                            <p>1 month</p>
-                        </div>
-                    </div>
-                </section>
-
                 {/* Projects */}
                 <section className="projects" id="Projects">
                     <h2>Projects</h2>
@@ -113,73 +81,38 @@ function Starter() {
                         </div>
                     </div>
                 </section>
-                <div style={{ clear: 'both' }}></div>
 
-                {/* Recommendations */}
-                <section id="recommendations">
-                    <h2>Recommendations</h2>
+                {/* Skills */}
+                <section id="Skills">
+                    <h2>Skills</h2>
                     <div style={{ clear: 'both' }}></div>
-                    <div className="all_recommendations" id="all_recommendations">
-                        <div className="recommendation">
-                            <span>&#8220;</span>
-                            Hi, I'm John Monroe, Lead Software Engineer at Warren Inc. Working with Joey was a game-changer for our team. His
-                            deep understanding of AI and software engineering, combined with a knack for innovative solutions, truly set him
-                            apart.
-                            <span>&#8221;</span>
+
+                    <div className="all_skills">
+                        <div className="skill">
+                            <img src="/assets/html5.png" alt="html logo" />
+                            <h6>HTML</h6>
+                            <p>4 months</p>
                         </div>
-                        <div className="recommendation">
-                            <span>&#8220;</span>
-                            I'm Sara, Senior Web Developer at Finn Tech. Joey consistently demonstrated exceptional skill in web development and
-                            a thorough understanding of best practices. His contributions significantly improved our project's structure and
-                            performance.
-                            <span>&#8221;</span>
+
+                        <div className="skill">
+                            <img src="/assets/CSS3.png" alt="css logo" />
+                            <h6>CSS</h6>
+                            <p>4 months</p>
                         </div>
-                        <div className="recommendation">
-                            <span>&#8220;</span>
-                            Hey, I'm Bruno Mars, singer and songwriter. Joey is a standout in the realm of generative AI and Python development.
-                            His expertise drove our sound project forward, blending creativity with precision to deliver "The Funk".
-                            <span>&#8221;</span>
+
+                        <div className="skill">
+                            <img src="/assets/js.jpeg" alt="javascript logo" />
+                            <h6>JavaScript</h6>
+                            <p>4 months</p>
+                        </div>
+
+                        <div className="skill">
+                            <img src="/assets/react.png" alt="react logo" />
+                            <h6>React</h6>
+                            <p>1 month</p>
                         </div>
                     </div>
                 </section>
-
-                {/* Recommendation Form */}
-                <section id="contact">
-                    <div className="flex_center">
-                        <fieldset>
-                            <legend className="introduction">Leave a Recommendation</legend>
-                            <input type="text" placeholder="Name (Optional)" /> <br />
-                            <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-                            <div className="flex_center">
-                                <button id="recommend_btn" onClick={() => addRecommendation()}>Submit</button>
-                            </div>
-                        </fieldset>
-                    </div>
-                </section>
-
-                <div className="iconbutton">
-                    <a href="">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="white"
-                            width="63px"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                            />
-                        </svg>
-                    </a>
-                </div>
-
-                <div id="popup" className="flex_center">
-                    <img src="" alt="checkmark" />
-                    <h3> Thank you for your recommendation! </h3>
-                </div>
             </div>
         );
     }
