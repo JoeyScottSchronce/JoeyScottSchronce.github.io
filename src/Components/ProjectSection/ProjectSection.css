@@ -1,3 +1,8 @@
+#ProjectSection {
+    display: flex;
+    margin: 3em;
+}
+
 .projects-container {
     margin-top: 30px;
     margin-left: 60px;

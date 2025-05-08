@@ -3,9 +3,9 @@ import "./ProjectSection.css"
 
 function ProjectSection() {
     return (
-        <div className="ProjectSection">
+        <div id="ProjectSection">
             {/* Projects */}
-            <section className="projects" id="Projects">
+            <section id="Projects">
                 <h2>Projects</h2>
                 <div style={{ clear: 'both' }}></div>
 

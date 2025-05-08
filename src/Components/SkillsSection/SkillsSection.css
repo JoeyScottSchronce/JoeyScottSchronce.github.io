@@ -1,3 +1,8 @@
+#SkillsSection {
+    display: flex;
+    margin: 3em;
+}
+
 .all_skills {
     display: flex;
     flex-direction: row;

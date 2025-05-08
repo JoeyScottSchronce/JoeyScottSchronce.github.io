@@ -4,8 +4,7 @@ import "./HeroSection.css"
 function HeroSection() {
     return (
         <>
-            <div className="top"></div>
-            <section id="Hero-Section" className="container">
+            <section id="HeroSection" className="container">
             <div>
                 <img
                     src="/assets/Professional%20Photo%20(2020).jpg"

@@ -1,8 +1,9 @@
-.top {
+#HeroSection {
+    display: flex;
     margin: 3em;
 }
 
-#Hero-Section button {
+#HeroSection button {
     background-color: #fff;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -15,7 +16,7 @@
     font-size: 20px;
 }
 
-#Hero-Section button:hover {
+#HeroSection button:hover {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     color: #fff;
@@ -25,12 +26,12 @@
     cursor: pointer;
 }
 
-#Hero-Section h1 {
+#HeroSection h1 {
     font-size: 65px;
     margin-top: 50px;
     color: var(--header-color);
 }
-#Hero-Section p {
+#HeroSection p {
     font-size: 25px;
     color: var(--header-color);
     margin-top: -1cm;

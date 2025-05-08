@@ -1,3 +1,8 @@
+#NavBar {
+    display: flex;
+    margin: 3em;
+}
+
 nav {
     padding: 1rem;
     position: fixed;
@@ -19,7 +24,7 @@ nav {
 }
 
 .nav-items {
-    margin: 0;
+    margin-left: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 20px;
@@ -37,7 +42,7 @@ nav {
     margin: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: var(--header-color);
     text-decoration: none;
