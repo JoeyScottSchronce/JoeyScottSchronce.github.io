@@ -210,7 +210,6 @@ fieldset {
 /* Buttons */
 
 button {
-  background-color: #fff;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   display: block;

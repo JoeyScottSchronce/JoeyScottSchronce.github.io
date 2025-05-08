@@ -33,17 +33,17 @@ function Starter() {
         return (
             <div>
                 {/* About Me */}
-                <div className="main-p">
-                    <p>
+                <section id="About">
+                    <p className="main-p">
                         I'm in the process of developing a strong foundation in Web Development and Software Engineering. I am excited to
                         embark on a fulfilling journey where I can continuously learn and grow while making meaningful contributions. I am
                         seeking an entry-level position in one of these fields and I'm eager to apply my growing knowledge and skills to
                         begin my new career.
                     </p>
-                </div>
+                </section>
 
                 {/* Skills */}
-                <section id="skills">
+                <section id="Skills">
                     <h2>Skills</h2>
                     <div style={{ clear: 'both' }}></div>
 
@@ -75,7 +75,7 @@ function Starter() {
                 </section>
 
                 {/* Projects */}
-                <section className="projects" id="projects">
+                <section className="projects" id="Projects">
                     <h2>Projects</h2>
                     <div style={{ clear: 'both' }}></div>
 

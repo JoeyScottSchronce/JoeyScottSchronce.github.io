@@ -4,11 +4,11 @@ import "./NavBar.css"
 function NavBar() {
     return (
         <nav className="nav">
-            <h1>Joey Scott Schronce</h1>
+            <a href="#Hero-Section" className="nav-main">Joey Scott Schronce</a>
             <div className="nav-options">
-                <h2 className="nav-items">About</h2>
-                <h2 className="nav-items">Projects</h2>
-                <h2 className="nav-items">Skills</h2>
+                <a href="#About" className="nav-items">About</a>
+                <a href="#Projects" className="nav-items">Projects</a>
+                <a href="#Skills" className="nav-items">Skills</a>
                 <h2 className="nav-items">X</h2>
                 <h2 className="nav-items">L</h2>
                 <h2 className="nav-items">G</h2>
