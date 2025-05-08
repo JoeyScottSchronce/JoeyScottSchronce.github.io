@@ -34,6 +34,8 @@ function Starter() {
             <div>
                 {/* About Me */}
                 <section id="About">
+                    <h2>About</h2>
+                    <div style={{ clear: 'both' }}></div>
                     <p className="main-p">
                         I'm in the process of developing a strong foundation in Web Development and Software Engineering. I am excited to
                         embark on a fulfilling journey where I can continuously learn and grow while making meaningful contributions. I am

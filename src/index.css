@@ -1,5 +1,8 @@
 
 /* Titles */
+a {
+  text-decoration: none;
+}
 
 .main-p {
   font-size: 30px;

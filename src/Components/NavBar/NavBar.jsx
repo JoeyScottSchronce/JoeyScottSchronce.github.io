@@ -9,9 +9,6 @@ function NavBar() {
                 <a href="#About" className="nav-items">About</a>
                 <a href="#Projects" className="nav-items">Projects</a>
                 <a href="#Skills" className="nav-items">Skills</a>
-                <h2 className="nav-items">X</h2>
-                <h2 className="nav-items">L</h2>
-                <h2 className="nav-items">G</h2>
             </div>
         </nav>
     )
