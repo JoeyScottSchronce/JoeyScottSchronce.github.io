@@ -3,6 +3,11 @@
     margin: 3em;
 }
 
+#Project-button {
+    justify-self: center;
+    min-width: 10rem;
+}
+
 .projects-container {
     margin-top: 30px;
     margin-left: 60px;

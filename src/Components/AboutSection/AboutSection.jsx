@@ -10,10 +10,13 @@ function AboutSection() {
                 <h2>About</h2>
                 <div style={{ clear: 'both' }}></div>
                 <p className="main-p">
-                    I'm in the process of developing a strong foundation in Web Development and Software Engineering. I am excited to
-                    embark on a fulfilling journey where I can continuously learn and grow while making meaningful contributions. I am
-                    seeking an entry-level position in one of these fields and I'm eager to apply my growing knowledge and skills to
-                    begin my new career.
+                    I'm searching for an entry-level position in Software Engineering.
+                    I currently have experience in creating front-end applications using React with Vite,
+                    Express apps with Node.js, Python apps with Flask & MongoDB, and full-stack apps with Django.
+                    I've also learned how to create unit tests in Python with unittests, and JavaScript with Jasmine,
+                    for test-driven and behavior-driven development. I'm familiar with containerization using Docker,
+                    Kubernetes, & OpenShift, as well as building CI/CD pipelines.
+                    I also have an understanding of Agile & how to practice DevOps.
                 </p>
             </section>
         </div>
