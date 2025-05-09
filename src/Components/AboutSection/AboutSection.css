@@ -1,13 +1,14 @@
 .AboutSection {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
     margin: 3em;
 }
 
 .main-p {
     font: var(--p);
-    text-align: center;
-    float: left;
-    margin: 30px 50px 20px;
+    text-align: justify;
     animation-duration: 5s;
     position: relative;
 }

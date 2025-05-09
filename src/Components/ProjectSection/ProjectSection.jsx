@@ -79,7 +79,7 @@ function ProjectSection() {
                     </div>
                     <hr />
                     <div className="project-card">
-                        <h3>Backend Development Songs Project</h3>
+                        <h3>Songs Project for Backend Capstone</h3>
                         <ul>
                             <li>
                                 This repository is part of the Backend Capstone Project that comprised of a Flask-based web
@@ -102,7 +102,7 @@ function ProjectSection() {
                     </div>
                     <hr />
                     <div className="project-card">
-                        <h3>Backend Development Pictures Project</h3>
+                        <h3>Pictures Project for Backend Capstone</h3>
                         <ul>
                             <li>
                                 This repository is part of the Backend Capstone Project that comprised of building a Flask-based

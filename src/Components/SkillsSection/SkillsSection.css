@@ -1,12 +1,15 @@
 #SkillsSection {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
     margin: 3em;
 }
 
 .all_skills {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
+    justify-content: space-evenly;
 }
 
 .skill {

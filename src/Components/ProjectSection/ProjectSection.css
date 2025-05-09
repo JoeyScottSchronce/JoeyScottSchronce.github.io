@@ -1,5 +1,8 @@
 #ProjectSection {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
     margin: 3em;
 }
 
@@ -19,16 +22,16 @@
 }
 
 .project-card {
-    margin: 0 15px 15px 30px;
     padding-bottom: 5px;
 }
 
 .project-card h3 {
-    font-size: 25px;
+    font: var(--h2);
     margin-left: 30px;
 }
 
 .project-card li {
-    font-size: 20px;
+    font: var(--p);
+    text-align: justify;
     margin-left: 30px;
 }
