@@ -7,7 +7,7 @@ function HeroSection() {
             <section id="HeroSection" className="container">
             <div>
                 <img
-                    src="/assets/Professional%20Photo%20(2020).jpg"
+                    src="/assets/Profile.webp"
                     className="profile_image"
                     alt="photo of Joey Schronce"
                 />
