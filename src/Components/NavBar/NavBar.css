@@ -1,19 +1,21 @@
 #NavBar {
     display: flex;
-    margin: 3em;
 }
 
 nav {
+    margin-top: 1rem;
     padding: 1rem;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 1px grey;
     z-index: 20;
 }
 
@@ -27,7 +29,7 @@ nav {
     margin-left: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: var(--primary-color);
     text-decoration: none;

@@ -1,5 +1,6 @@
 #HeroSection {
     display: flex;
+    margin-top: 7rem;
 }
 
 #HeroSection h1 {

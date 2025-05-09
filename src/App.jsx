@@ -9,7 +9,6 @@ function App() {
     return (
         <>
             <NavBar />
-            <section id="Top"><div className="spacer"></div></section>
             <HeroSection />
             <section id="About"><div className="spacer"></div></section>
             <AboutSection />
