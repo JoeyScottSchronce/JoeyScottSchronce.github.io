@@ -4,7 +4,6 @@
     --light-base: #efefef;
     --dark-base: #222;
     --font-family: Arial, Helvetica, sans-serif;
-    --h1: bold 5rem var(--font-family);
     --h2: bold 3rem var(--font-family);
     --links: bold 18px/18px var(--font-family);
     --p: normal 2em var(--font-family);

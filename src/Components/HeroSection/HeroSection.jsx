@@ -3,16 +3,15 @@ import "./HeroSection.css"
 
 function HeroSection() {
     return (
-        <>
-            <section id="HeroSection" className="container">
-            <div>
+        <div id="HeroSection" className="container">
+            <div className="sub-container">
                 <img
                     src="/assets/Profile.webp"
                     className="profile_image"
                     alt="photo of Joey Schronce"
                 />
             </div>
-            <div>
+            <div className="sub-container">
                 <h1 className="title">
                     Welcome to <br/> my portfolio!
                 </h1>
@@ -29,8 +28,7 @@ function HeroSection() {
                     </a>
                 </div>
             </div>
-        </section>
-        </>
+        </div>
     )
 }
 

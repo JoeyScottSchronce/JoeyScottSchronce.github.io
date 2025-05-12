@@ -68,3 +68,13 @@ nav {
         font-size: 4.5rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .nav-items {
+        font-size: 2rem;
+    }
+
+    .nav-main {
+        font-size: 3rem;
+    }
+}
