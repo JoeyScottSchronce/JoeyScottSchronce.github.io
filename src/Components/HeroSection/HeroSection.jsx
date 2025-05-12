@@ -4,29 +4,9 @@ import "./HeroSection.css"
 function HeroSection() {
     return (
         <div id="HeroSection" className="container">
-            <div className="sub-container">
-                <img
-                    src="/assets/Profile.webp"
-                    className="profile_image"
-                    alt="photo of Joey Schronce"
-                />
+            <div className="first-sub">
             </div>
-            <div className="sub-container">
-                <h1 className="title">
-                    Welcome to <br/> my portfolio!
-                </h1>
-                <p>Secondary heading to add attention to the Hero Section</p>
-                <div className="Social-Media">
-                    <a href="https://github.com/JoeyScottSchronce" rel="noopener noreferrer">
-                        <button className="button">GitHub</button>
-                    </a>
-                    <a href="https://www.linkedin.com/in/joeyscottschronce/" rel="noopener noreferrer">
-                        <button className="button">LinkedIn</button>
-                    </a>
-                    <a href="https://x.com/CodeQuestBlog" rel="noopener noreferrer">
-                        <button className="button">X</button>
-                    </a>
-                </div>
+            <div className="second-sub">
             </div>
         </div>
     )

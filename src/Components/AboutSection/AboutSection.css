@@ -1,14 +1,24 @@
-.AboutSection {
+.about-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    min-width: 800px;
-    margin: 6em 4em;
+    align-items: center;
+    padding: 2rem;
 }
 
 .main-p {
-    font: var(--p);
-    text-align: justify;
-    animation-duration: 5s;
-    position: relative;
+
+}
+
+.main-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.profile {
+    min-width: 15rem;
+    border-radius: 25px;
 }

@@ -1,80 +1,42 @@
-#NavBar {
+.nav-container {
     display: flex;
-}
-
-nav {
-    padding: 1em;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--light-base);
-    border-radius: 10px;
-    z-index: 20;
 }
 
-.nav-options {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.nav-items {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 2rem;
+.nav-title {
+    color: var(--secondary-color);
     font-weight: bold;
-    color: var(--primary-color);
-    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.nav-items {
+    background-color: var(--light-base);
+    color: var(--secondary-color);
+    padding: 0 1rem 0 1rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .nav-items:hover {
-    transform: scale(1.10);
+    background-color: var(--secondary-color);
+    color: white;
 }
 
-.nav-main {
-    margin: 0;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--primary-color);
+.nav-items a {
     text-decoration: none;
-}
-.nav-main:hover {
-    transform: scale(1.05);
-}
-
-@media screen and (max-width: 1215px) {
-    .nav {
-        flex-direction: column;
-        gap: 1em;
-    }
-    .nav-options {
-        justify-content: space-between;
-    }
-
-    .nav-items {
-        margin: 0.5em;
-        font-size: 3rem;
-    }
-
-    .nav-main {
-        font-size: 4.5rem;
-    }
+    color: inherit;
+    font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-    .nav-items {
-        font-size: 2rem;
-    }
-
-    .nav-main {
-        font-size: 3rem;
-    }
-}

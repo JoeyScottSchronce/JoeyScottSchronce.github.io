@@ -4,11 +4,10 @@ import React from "react";
 function AboutSection() {
     return (
         <>
-            <div className="AboutSection">
-                {/* About Me */}
-                <section>
-                    <h2>About</h2>
-                    <div style={{ clear: 'both' }}></div>
+            <div id="AboutSection" className="about-container">
+                <h2>About</h2>
+                <div className="main-sub">
+                    <img className="profile" src="/assets/Profile.webp" alt="image of Joey Scott Schronce" />
                     <p className="main-p">
                         I'm searching for an entry-level position in Software Engineering.
                         I currently have experience in creating front-end applications using React with Vite,
@@ -18,7 +17,7 @@ function AboutSection() {
                         Kubernetes, & OpenShift, as well as building CI/CD pipelines.
                         I also have an understanding of Agile & how to practice DevOps.
                     </p>
-                </section>
+                </div>
             </div>
         </>
     )

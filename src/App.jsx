@@ -13,9 +13,9 @@ function App() {
                 <NavBar />
                 <Routes>
                     <Route path="/" element={<HeroSection />} />
-                    <Route path="/About" element={<AboutSection />} />
-                    <Route path="/Projects" element={<ProjectSection />} />
-                    <Route path="/Skills" element={<SkillsSection />} />
+                    <Route path="/about" element={<AboutSection />} />
+                    <Route path="/projects" element={<ProjectSection />} />
+                    <Route path="/skills" element={<SkillsSection />} />
                 </Routes>
             </BrowserRouter>
         </>

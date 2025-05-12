@@ -4,16 +4,13 @@ import "./NavBar.css"
 
 function NavBar() {
     return (
-        <div id="NavBar">
-            <nav className="nav">
-                <div>
-                    <Link to="/" className="nav-main">Joey Scott Schronce</Link>
-                </div>
-                <div className="nav-options">
-                    <Link to="/About" className="nav-items">About</Link>
-                    <Link to="/Projects" className="nav-items">Projects</Link>
-                    <Link to="/Skills" className="nav-items">Skills</Link>
-                </div>
+        <div id="NavBar" className="nav-container">
+            <div className="nav-title">Joey Scott Schronce</div>
+            <nav className="nav-items-container">
+                <div className="nav-items"><Link to="/">Home</Link></div>
+                <div className="nav-items"><Link to="/about">About</Link></div>
+                <div className="nav-items"><Link to="/projects">Projects</Link></div>
+                <div className="nav-items"><Link to="/skills">Skills</Link></div>
             </nav>
         </div>
     )

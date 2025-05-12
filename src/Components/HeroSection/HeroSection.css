@@ -1,64 +1,11 @@
-#HeroSection {
-    display: flex;
-    margin-top: 7.5rem;
-}
-
-#HeroSection h1 {
-    font-size: 5rem;
-    margin-top: 50px;
-    color: var(--primary-color);
-}
-#HeroSection p {
-    font-size: 25px;
-    margin-top: 5px;
-    color: var(--primary-color);
-}
-
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 1rem;
-    padding: 3rem;
+
 }
 
-.sub-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.first-sub {
+
 }
 
-.profile_image {
-    clip-path: ellipse(40% 50% at 50% 50%);
-    width: 300px;
-    margin: 3rem;
+.second-sub {
+
 }
-
-.Social-Media {
-    display: flex;
-}
-
-@media screen and (max-width: 1215px) {
-    #HeroSection {
-        flex-direction: column;
-    }
-    #HeroSection h1 {
-        font-size: 4rem;
-    }
-
-    .profile_image {
-        margin-top: 6rem;
-    }
-
-    .sub-container {
-        max-width: 375px;
-    }
-
-    .Social-Media {
-        flex-direction: column;
-    }
-}
-
-
