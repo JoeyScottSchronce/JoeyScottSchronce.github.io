@@ -10,7 +10,15 @@ function App() {
     return (
         <>
             <BrowserRouter>
+                <div className="blobs">
+                    <div className="blob"></div>
+                    <div className="blob"></div>
+                    <div className="blob"></div>
+                    <div className="blob"></div>
+                </div>
+
                 <NavBar />
+
                 <Routes>
                     <Route path="/" element={<HeroSection />} />
                     <Route path="/about" element={<AboutSection />} />
@@ -21,5 +29,6 @@ function App() {
         </>
     );
 }
+
 
 export default App;
