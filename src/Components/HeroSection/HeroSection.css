@@ -1,11 +1,16 @@
 .container {
-
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
 .first-sub {
-
+    border: 2px solid red;
 }
 
 .second-sub {
+    border: 2px solid blue;
 
 }

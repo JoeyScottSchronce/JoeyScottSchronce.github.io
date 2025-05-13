@@ -1,12 +1,13 @@
 .nav-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
 
 .nav-title {
-    color: var(--secondary-color);
+    color: var(--dark-base);
     font-weight: bold;
     font-size: 2rem;
     margin: 0 1rem 0 1rem;
@@ -17,6 +18,7 @@
     align-items: center;
     margin: 1rem;
 }
+
 .nav-items {
     background-color: var(--light-base);
     color: var(--secondary-color);
@@ -40,3 +42,8 @@
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .nav-container {
+        justify-content: center;
+    }
+}
