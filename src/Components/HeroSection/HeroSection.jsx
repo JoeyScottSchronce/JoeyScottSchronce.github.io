@@ -17,7 +17,7 @@ function HeroSection() {
                 </div>
 
                 <div className="third-sub" >
-                    <Link to="/projects">Go to Projects</Link>
+                    <Link to="/projects">Explore My Projects</Link>
                 </div>
             </div>
         </div>
