@@ -3,14 +3,51 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin: 4rem 0 1rem 0;
     padding: 2rem;
 }
 
+.sub-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1rem;
+    gap: 1rem;
+}
+
 .first-sub {
-    border: 2px solid red;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
 }
 
 .second-sub {
-    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+}
 
+.third-sub {
+    background-color: var(--light-base);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.third-sub:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.third-sub a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
 }
