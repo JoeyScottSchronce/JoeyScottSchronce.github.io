@@ -42,7 +42,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .nav-container {
         justify-content: center;
     }
