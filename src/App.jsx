@@ -11,10 +11,17 @@ function App() {
         <>
             <BrowserRouter>
                 <div className="blobs">
-                    <div className="blob"></div>
-                    <div className="blob"></div>
-                    <div className="blob"></div>
-                    <div className="blob"></div>
+
+                    <div className="blobTwo"></div>
+                    <div className="blobTwo"></div>
+                    <div className="blobTwo"></div>
+                    <div className="blobTwo"></div>
+
+                    <div className="blobOne" ></div>
+                    <div className="blobOne" ></div>
+                    <div className="blobOne" ></div>
+                    <div className="blobOne" ></div>
+
                 </div>
 
                 <NavBar />
