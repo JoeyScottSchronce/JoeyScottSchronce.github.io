@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--light-base);
+    font-family: Roboto, sans-serif;
 }
 
 a {

@@ -10,7 +10,7 @@
     color: var(--dark-base);
     font-weight: bold;
     font-size: 2rem;
-    margin: 0 1rem 0 1rem;
+    margin:1rem;
 }
 
 .nav-items-container {
@@ -42,8 +42,11 @@
     font-weight: bold;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 751px) {
     .nav-container {
         justify-content: center;
+    }
+    .nav-title {
+        margin: 1rem 1rem 0 1rem;
     }
 }

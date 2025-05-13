@@ -17,9 +17,9 @@
 }
 
 .first-sub {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 2rem;
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@
 .second-sub {
     display: flex;
     font-size: 1.3rem;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .third-sub {
@@ -64,32 +64,32 @@
 
 @media (max-width: 857px) {
     .first-sub {
-        font-size: 1.8rem;
+        margin: 0;
+        padding: 0;
+        font-size: 2.3rem;
     }
     .second-sub {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         max-width: 70%;
     }
 }
 
 @media (max-width: 683px) {
     .first-sub {
-        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+        font-size: 2rem;
     }
     .second-sub {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         max-width: 100%;
     }
 }
 
 @media (max-width: 525px) {
     .first-sub {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 397px) {
-    .first-sub {
-        font-size: 1.1rem;
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
     }
 }

@@ -11,9 +11,9 @@ function HeroSection() {
                 </div>
 
                 <div className="second-sub">
-                    <div className="intro2" >I have no idea what to say right here so I'm just
-                        gonna fill it in with a bunch of words to make this paragraph longer
-                        to see what it looks like.</div>
+                    <div className="intro2" >As a Software Engineer, my expertise is in building reliable and
+                        efficient backend systems, APIs, and innovative software solutions.
+                    </div>
                 </div>
 
                 <div className="third-sub" >
