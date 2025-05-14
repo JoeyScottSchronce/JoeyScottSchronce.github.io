@@ -8,7 +8,7 @@ const ProjectSection = () => {
     const [startIndex, setStartIndex] = useState(0);
 
     // Number of projects displayed at a time
-    const DISPLAY_COUNT = 2;
+    const DISPLAY_COUNT = 1;
 
     // Next & Back button handlers
     const handleNext = () => {

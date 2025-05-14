@@ -2,25 +2,20 @@ const ProjectCardData = {
     DevOpsCapstone: {
         title: "DevOps and Software Engineering Capstone Project",
         image: "https://wallpaperaccess.com/full/86289.jpg",
-        content: "I developed an Accounts microservice to efficiently manage customer data " +
-            "for an e-commerce platform, following Test-Driven Development (TDD) and " +
-            "Behavior-Driven Development (BDD) principles. The service is built " +
-            "using the Flask framework, incorporating a Tekton pipeline for automated workflows. " +
-            "To ensure a structured development process, I utilized a Kanban board and " +
-            "created detailed user stories, simulating a milestone-based approach with " +
-            "four sprints. The microservice features a PostgreSQL database, with RESTful APIs " +
-            "for create, read, update, delete, and list operations, maintaining 95% code coverage " +
-            "through rigorous unit tests written with Factory Boy and Unittest. The codebase " +
-            "adheres to the Model-View-Controller (MVC) pattern, ensuring clean separation " +
-            "between business logic (models.py) and routing (routes.py). Additionally, the " +
-            "project includes a Dockerfile, CI/CD pipeline, and was successfully deployed " +
-            "to IBM Registry. This comprehensive implementation showcases my ability to build " +
-            "scalable, well-tested, and deployment-ready microservices.",
+        content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
+            "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
+            "automated workflows while structuring development via a Kanban board and milestone-based sprints." +
+            " The service features a PostgreSQL database with RESTful APIs for CRUD and list operations, " +
+            "achieving 95% code coverage using Factory Boy and Unittest. Following the Model-View-Controller" +
+            " pattern, I ensured a clear separation of concerns between business logic and routing. The project" +
+            " includes a Dockerfile, CI/CD pipeline, and was deployed to IBM Registry, demonstrating my ability" +
+            " to develop scalable, well-tested microservices.",
         website: null,
         github: "https://github.com/JoeyScottSchronce/devops-capstone-project"
     },
     FrontendCapstone: {
         title: "Frontend Development Capstone Project",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "I created a medical appointment booking website called Stay Healthy, to provide" +
             " access to medical care in remote areas. This website is designed to allow patients " +
             "to schedule appointments with healthcare providers easily. The platform enables users " +
@@ -36,6 +31,7 @@ const ProjectCardData = {
     },
     BackendCapstone: {
         title: "Backend Development Capstone Project",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "I created a Django-based web application designed to serve as the main website for a " +
             "band that integrates with the Pictures and Songs services from the two other IBM Backend " +
             "Capstone Projects. This application features dynamic web pages, including a home page, a songs" +
@@ -51,6 +47,7 @@ const ProjectCardData = {
     },
     BackendSongs: {
         title: "Songs Project for Backend Capstone",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "This repository is part of the Backend Capstone Project that comprised of a Flask-based web service" +
             " designed to interact with a MongoDB database for retrieving song data, developed using the provided " +
             "template. The service is deployed on IBM Code Engine using IBM Cloud infrastructure, integrating MongoDB" +
@@ -67,6 +64,7 @@ const ProjectCardData = {
     },
     BackendPictures: {
         title: "Pictures Project for Backend Capstone",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "This repository is part of the Backend Capstone Project that comprised of building a Flask-based service" +
             " that retrieves pictures from past concert events stored in cloud object storage. With the GitHub template " +
             "repository, I developed the application with Python unit tests to ensure the code functions correctly. As part" +
@@ -81,6 +79,7 @@ const ProjectCardData = {
     },
     TestingAndBehavior: {
         title: "Test-driven & Behavior-driven Development Project",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "This repository contains a microservice for managing a product catalog, designed as the backend for an " +
             "eCommerce application. It follows Test Driven Development (TDD) and Behavior Driven Development (BDD) " +
             "methodologies to ensure reliability and maintainability. The microservice features a RESTful API that supports" +

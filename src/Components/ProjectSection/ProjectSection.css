@@ -54,3 +54,17 @@
     color: grey;
     cursor: not-allowed;
 }
+
+@media (max-width: 751px) {
+    .project-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 498px) {
+    .projects-container {
+        margin: 0.2rem;
+        padding: 0;
+        width: 98%;
+    }
+}
