@@ -22,7 +22,7 @@
 .nav-items {
     background-color: var(--light-base);
     color: var(--secondary-color);
-    padding: 0 1rem 0 1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
     border: 2px solid var(--secondary-color);
     border-radius: 25px;
     cursor: pointer;
@@ -34,6 +34,7 @@
 .nav-items:hover {
     background-color: var(--secondary-color);
     color: white;
+    transform: scale(1.08);
 }
 
 .nav-items a {

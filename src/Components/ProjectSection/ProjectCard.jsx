@@ -7,8 +7,10 @@ function ProjectCard({ title, content, website, github }) {
         <div className="card-container">
             <h3 className="card-title" >{title}</h3>
             <p className="card-description">{content}</p>
-            <a href={github}><button className="card-button">Project Repository</button></a>
-            <a href={website}><button className="card-button">See the Website</button></a>
+            <div className="card-button-container">
+                <a href={github}><button className="card-button">Project Repository</button></a>
+                <a href={website}><button className="card-button">See the Website</button></a>
+            </div>
         </div>
     )
 }

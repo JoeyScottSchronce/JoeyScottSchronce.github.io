@@ -14,10 +14,34 @@
 .card-description {
 }
 
-.card-button {
-    margin: 0.5rem;
-    padding: 0.5rem;
+.card-button-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
 }
+
+.card-button {
+    background-color: var(--light-base);
+    border: 2px solid var(--main-button);
+    color: var(--main-button);
+    margin: 1rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-button:hover {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    transform: scale(1.08);
+}
+
 
 @media (max-width: 1414px) {
     .card-container {
