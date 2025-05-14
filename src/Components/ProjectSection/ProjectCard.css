@@ -1,0 +1,26 @@
+.card-container {
+    max-width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--light-base);
+    border-radius: 15px;
+    background-color: var(--light-base);
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.card-title {
+}
+
+.card-description {
+}
+
+.card-button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 1414px) {
+    .card-container {
+        max-width: 90%;
+    }
+}
