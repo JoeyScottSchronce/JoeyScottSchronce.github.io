@@ -1,6 +1,7 @@
 const ProjectCardData = {
     DevOpsCapstone: {
         title: "DevOps and Software Engineering Capstone Project",
+        image: "https://wallpaperaccess.com/full/86289.jpg",
         content: "I developed an Accounts microservice to efficiently manage customer data " +
             "for an e-commerce platform, following Test-Driven Development (TDD) and " +
             "Behavior-Driven Development (BDD) principles. The service is built " +

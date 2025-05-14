@@ -11,6 +11,10 @@
 .card-title {
 }
 
+.card-image {
+    min-width: 10%;
+}
+
 .card-description {
 }
 
