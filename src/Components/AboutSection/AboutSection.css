@@ -21,7 +21,7 @@
 
 .about-main-sub {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: center;
     padding: 0;
     gap: 1rem;
