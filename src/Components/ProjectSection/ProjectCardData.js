@@ -1,7 +1,10 @@
+
+// content must be less than 750 characters long!
+
 const ProjectCardData = {
     DevOpsCapstone: {
         title: "DevOps and Software Engineering Capstone Project",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
+        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
         content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
             "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
             "automated workflows while structuring development via a Kanban board and milestone-based sprints." +
@@ -15,7 +18,7 @@ const ProjectCardData = {
     },
     FrontendCapstone: {
         title: "Frontend Development Capstone Project",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
+        image: "/assets/frontend.webp",
         content: "I created a medical appointment booking website called Stay Healthy, to provide" +
             " access to medical care in remote areas. This website is designed to allow patients " +
             "to schedule appointments with healthcare providers easily. The platform enables users " +
@@ -26,12 +29,12 @@ const ProjectCardData = {
             "with Linux commands, JSX, and React, as well as further honed my skills in HTML, CSS " +
             "with Bootstrap, Docker, using Git & GitHub, and creating UI/UX designs, both with Figma " +
             "in theory and in practice.",
-        website: null,
+        website: "https://joeyscottschronce.github.io/frontend_developer_capstone_project/",
         github: "https://github.com/JoeyScottSchronce/frontend_developer_capstone_project"
     },
     BackendCapstone: {
         title: "Backend Development Capstone Project",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
+        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
         content: "I created a Django-based web application designed to serve as the main website for a " +
             "band that integrates with the Pictures and Songs services from the two other IBM Backend " +
             "Capstone Projects. This application features dynamic web pages, including a home page, a songs" +
@@ -47,50 +50,39 @@ const ProjectCardData = {
     },
     BackendSongs: {
         title: "Songs Project for Backend Capstone",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
-        content: "This repository is part of the Backend Capstone Project that comprised of a Flask-based web service" +
-            " designed to interact with a MongoDB database for retrieving song data, developed using the provided " +
-            "template. The service is deployed on IBM Code Engine using IBM Cloud infrastructure, integrating MongoDB" +
-            " for efficient song data storage and retrieval while providing a RESTful interface through Flask. It " +
-            "includes Python unit tests to ensure code reliability and correctness, which helped me validate my " +
-            "implementations. During this section of the capstone I gained valuable insights into NoSQL databases, " +
-            "their characteristics, and different datastore architectures, with a specific focus on MongoDB's features " +
-            "and benefits. I've also gained hands-on experience performing CRUD operations via the MongoDB shell, " +
-            "connecting to and interacting with MongoDB through Flask and Python SDKs, and developing a scalable and " +
-            "efficient web service. This Capstone served as a foundational resource for my understanding of NoSQL databases" +
-            " and build robust applications using Flask and MongoDB.",
+        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        content: "I developed a Flask-based web service for retrieving song data, integrating MongoDB for efficient" +
+            " storage and retrieval. Deployed on IBM Code Engine using IBM Cloud, the service provides a RESTful API" +
+            " and includes Python unit tests to ensure reliability. Through this capstone, I gained insights into " +
+            "NoSQL databases, datastore architectures, and MongoDB’s features. I also performed CRUD operations via" +
+            " the MongoDB shell, connected Flask with MongoDB using Python SDKs, and built a scalable web service." +
+            " This project strengthened my understanding of NoSQL databases and their role in robust application " +
+            "development.",
         website: null,
         github: "https://github.com/JoeyScottSchronce/Back-End-Development-Songs"
     },
     BackendPictures: {
         title: "Pictures Project for Backend Capstone",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
-        content: "This repository is part of the Backend Capstone Project that comprised of building a Flask-based service" +
-            " that retrieves pictures from past concert events stored in cloud object storage. With the GitHub template " +
-            "repository, I developed the application with Python unit tests to ensure the code functions correctly. As part" +
-            " of the project, I have also developed RESTful APIs to handle picture URL resources, implement robust error " +
-            "handling for both server and user-side issues, and integrated external APIs within the Flask application. " +
-            "Additionally, the completed service was be deployed to IBM Code Engine. Throughout this process, I have gained " +
-            "experience in building a service that retrieves images from cloud storage, creating a Flask application that " +
-            "efficiently responds to user requests, and ensured API reliability through comprehensive testing. In completing" +
-            " this project, I have gained valuable hands-on experience in Flask development and cloud deployment.",
+        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        content: "I built a Flask-based service to retrieve concert event images from cloud storage, ensuring " +
+            "reliability with Python unit tests. Using a GitHub template, I developed RESTful APIs for handling " +
+            "picture URLs, implemented robust error handling, and integrated external APIs within Flask. The " +
+            "service was successfully deployed to IBM Code Engine. Through this project, I gained hands-on " +
+            "experience in cloud storage retrieval, API development, and Flask-based web services, strengthening" +
+            " my skills in backend development and cloud deployment.",
         website: null,
         github: "https://github.com/JoeyScottSchronce/Back-End-Development-Pictures"
     },
     TestingAndBehavior: {
         title: "Test-driven & Behavior-driven Development Project",
-        image: "https://wallpaperaccess.com/full/86289.jpg",
-        content: "This repository contains a microservice for managing a product catalog, designed as the backend for an " +
-            "eCommerce application. It follows Test Driven Development (TDD) and Behavior Driven Development (BDD) " +
-            "methodologies to ensure reliability and maintainability. The microservice features a RESTful API that supports" +
-            " full CRUD (Create, Read, Update, Delete) functionality for product management while also enabling advanced " +
-            "product search by category, availability, and name. The project integrates BDD-based testing to verify that " +
-            "the administrative UI behaves as expected, utilizing a feature file to validate UI functionality with Behave " +
-            "and a steps file to load background data from BDD scenarios before each scenario executes. Throughout this " +
-            "project, I worked toward key learning objectives that strengthened my technical skills. I developed unit test " +
-            "cases for the Product model, implemented a well-tested REST API, integrated BDD scenarios for UI validation, " +
-            "and automated background data loading to streamline scenario execution. By applying both TDD and BDD, I ensured" +
-            " that this microservice was robust, highly testable, and seamlessly integrated within an eCommerce system.",
+        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        content: "I developed a microservice for managing an eCommerce product catalog, applying Test-Driven " +
+            "and Behavior-Driven Development to ensure reliability. The RESTful API supports full CRUD functionality" +
+            " and advanced product search by category, availability, and name. BDD-based testing validates the" +
+            " administrative UI using Behave, with automated background data loading for scenario execution. I " +
+            "implemented unit tests for the Product model, built a well-tested API, and ensured seamless integration" +
+            " within the system. This project strengthened my technical skills in scalable, testable microservice " +
+            "development.",
         website: null,
         github: "https://github.com/JoeyScottSchronce/bdd_and_tdd_final_project",
     }

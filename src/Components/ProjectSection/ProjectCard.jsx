@@ -12,7 +12,9 @@ function ProjectCard({ title, image, content, website, github }) {
                     <p className="card-description">{content}</p>
                     <div className="card-button-container">
                         <a href={github}><button className="card-button">Project Repository</button></a>
-                        <a href={website}><button className="card-button">See the Website</button></a>
+                        {website && (
+                            <a href={website}><button className="card-button">See the Website</button></a>
+                        )}
                     </div>
                 </div>
             </div>

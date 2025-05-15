@@ -24,8 +24,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid Var(--dark-base);
     border-radius: 15px;
-    min-width: 300px;             /* size of the img within the container */
+    min-width: 450px;             /* size of the img within the container */
     height: 300px;            /* size of the img within the container */
     overflow: hidden;
 }
@@ -39,7 +40,9 @@
 }
 
 .card-description {
+    display: flex;
     margin: 0.5rem;
+    ;
 }
 
 .card-content {
@@ -81,7 +84,7 @@
 }
 
 
-@media (max-width: 961px) {
+@media (max-width: 1065px) {
     .card-container {
         display: flex;
         flex-direction: column;
