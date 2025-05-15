@@ -3,7 +3,11 @@
     max-width: 100%;
 }
 
-.main-sub {
+.skills-container h2 {
+    text-align: center;
+}
+
+.skills-main-sub {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
@@ -21,4 +25,9 @@
 
 img {
     max-width: 2rem;
+}
+
+
+@media (max-width: 580px) {
+
 }

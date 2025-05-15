@@ -4,8 +4,8 @@ import "./SkillsSection.css"
 function SkillsSection() {
     return (
         <div id="SkillsSection" className="skills-container">
-            <h2 className="skills-h2">Skills</h2>
-            <div className="main-sub">
+            <h2>Skills</h2>
+            <div className="skills-main-sub">
                 <div className="skill">
                     <img src="/assets/python.jpg" alt="Python logo" />
                     <h6>Python</h6>

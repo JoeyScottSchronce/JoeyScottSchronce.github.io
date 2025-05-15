@@ -19,7 +19,7 @@
     max-width: 70%;
 }
 
-.main-sub {
+.about-main-sub {
     display: flex;
     flex-direction: column;
     justify-content: center;
