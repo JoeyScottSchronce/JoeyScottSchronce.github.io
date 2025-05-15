@@ -3,22 +3,70 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+}
+
+.about-container h2 {
+    margin: 0.5rem;
+    text-align: left;
 }
 
 .main-p {
-
+    margin: 0.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    max-width: 70%;
 }
 
 .main-sub {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
     gap: 1rem;
-    padding: 2rem;
 }
 
 .profile {
-    min-width: 15rem;
-    border-radius: 25px;
+    min-width: 17rem;
+    border-radius: 15px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .profile {
+        min-width: 13rem;
+    }
+    .main-p {
+        max-width: 80%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .profile {
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile {
+        min-width: 12rem;
+    }
+    .main-p {
+        max-width: 80%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .profile {
+        min-width: 10rem;
+    }
+    .main-p {
+        max-width: 90%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
 }
