@@ -7,7 +7,9 @@ function ProjectCard({ title, image, content, website, github }) {
         <div className="card-container">
             <h3 className="card-title" >{title}</h3>
             <div className="card-content-container">
-                <div className="card-image" ><img src={image} alt={title}/></div>
+                {image && (
+                    <div className="card-image" ><img src={image} alt={title}/></div>
+                )}
                 <div className="card-content">
                     <p className="card-description">{content}</p>
                     <div className="card-button-container">

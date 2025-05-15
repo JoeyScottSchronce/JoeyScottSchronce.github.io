@@ -3,9 +3,23 @@
 // content must be less than 750 characters long!
 
 const ProjectCardData = {
+    PortfolioProject: {
+        title: "Portfolio Project",
+        image: "/assets/portfolio.webp",
+        content: "This is my fully-responsive portfolio website project. It's built using " +
+            "React, Vite, and hosted on GitHub Pages. This project showcases my journey in software development, " +
+            "applying all the skills I've been honing throughout the IBM Frontend Development Professional " +
+            "Certificate and beyond. Every component you interact with on this website is crafted from scratch, " +
+            "using React and CSS to bring my design to life. From structuring the layouts to refining the user " +
+            "experience, this portfolio website reflects my dedication to continuing to practice everything " +
+            "I've learned and to continue to build responsive and functional websites, apps, and other " +
+            "programming projects.",
+        website: "https://joeyscottschronce.github.io/",
+        github: "https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io"
+    },
     DevOpsCapstone: {
         title: "DevOps & Software Engineering Capstone Project",
-        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        image: null,
         content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
             "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
             "automated workflows while structuring development via a Kanban board and milestone-based sprints." +
@@ -20,8 +34,8 @@ const ProjectCardData = {
     FrontendCapstone: {
         title: "Frontend Development Capstone Project",
         image: "/assets/frontend.webp",
-        content: "I created a medical appointment booking website called Stay Healthy, to provide" +
-            " access to medical care in remote areas. This website is designed to allow patients " +
+        content: "I created a desktop-only medical appointment booking website called Stay Healthy, to provide" +
+            " access to medical care in remote areas. This desktop website is designed to allow patients " +
             "to schedule appointments with healthcare providers easily. The platform enables users " +
             "to view available slots, select providers, manage their appointments through their online" +
             " accounts, and give feedback to the doctor's about their care. Built using the React " +
@@ -35,7 +49,7 @@ const ProjectCardData = {
     },
     BackendCapstone: {
         title: "Backend Development Capstone Project",
-        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        image: null,
         content: "I created a Django-based web app designed to serve as the main website for a " +
             "band that integrates with the Pictures and Songs services from the two other IBM Backend " +
             "Capstone Projects. This app features dynamic web pages, including a home page, a songs" +
@@ -51,7 +65,7 @@ const ProjectCardData = {
     },
     BackendSongs: {
         title: "Songs Project for Backend Capstone",
-        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        image: null,
         content: "I developed a Flask-based web service for retrieving song data, integrating MongoDB for efficient" +
             " storage and retrieval. Deployed on IBM Code Engine using IBM Cloud, the service provides a RESTful API" +
             " and includes Python unit tests to ensure reliability. Through this capstone, I gained insights into " +
@@ -64,7 +78,7 @@ const ProjectCardData = {
     },
     BackendPictures: {
         title: "Pictures Project for Backend Capstone",
-        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        image: null,
         content: "I built a Flask-based service to retrieve concert event images from cloud storage, ensuring " +
             "reliability with Python unit tests. Using a GitHub template, I developed RESTful APIs for handling " +
             "picture URLs, implemented robust error handling, and integrated external APIs within Flask. The " +
@@ -76,7 +90,7 @@ const ProjectCardData = {
     },
     TestingAndBehavior: {
         title: "Test-driven & Behavior-driven Development",
-        image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
+        image: null,
         content: "I developed a microservice for managing an eCommerce product catalog, applying Test-Driven " +
             "and Behavior-Driven Development to ensure reliability. The RESTful API supports full CRUD functionality" +
             " and advanced product search by category, availability, and name. BDD-based testing validates the" +

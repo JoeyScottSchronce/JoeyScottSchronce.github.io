@@ -26,8 +26,8 @@
     align-items: center;
     border: 2px solid Var(--dark-base);
     border-radius: 15px;
-    min-width: 450px;             /* size of the img within the container */
-    height: 300px;            /* size of the img within the container */
+    min-width: 450px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -125,6 +125,7 @@
     .card-description {
         margin: 0;
         font-size: 0.8rem;
+        text-align: center;
     }
 }
 
