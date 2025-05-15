@@ -27,15 +27,15 @@ const ProjectSection = () => {
         <div className="projects-container">
             <div className="projects-title-container">
                 <h2>Projects</h2>
-                <div className="project-nav-buttons">
-                    <button className="project-button" onClick={handleBack} disabled={startIndex === 0}>Back</button>
-                    <button className="project-button" onClick={handleNext} disabled={startIndex + DISPLAY_COUNT >= projectEntries.length}>Next</button>
-                </div>
             </div>
             <div className="projects-sub-container">
                 {projectEntries.slice(startIndex, startIndex + DISPLAY_COUNT).map(([key, project]) => (
                     <ProjectCard key={key} {...project} />
                 ))}
+                <div className="project-nav-buttons">
+                    <button className="project-button" onClick={handleBack} disabled={startIndex === 0}>Back</button>
+                    <button className="project-button" onClick={handleNext} disabled={startIndex + DISPLAY_COUNT >= projectEntries.length}>Next</button>
+                </div>
             </div>
         </div>
     );

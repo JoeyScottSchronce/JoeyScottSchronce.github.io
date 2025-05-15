@@ -3,7 +3,7 @@
 
 const ProjectCardData = {
     DevOpsCapstone: {
-        title: "DevOps and Software Engineering Capstone Project",
+        title: "DevOps & Software Engineering Capstone Project",
         image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
         content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
             "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
@@ -35,15 +35,15 @@ const ProjectCardData = {
     BackendCapstone: {
         title: "Backend Development Capstone Project",
         image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
-        content: "I created a Django-based web application designed to serve as the main website for a " +
+        content: "I created a Django-based web app designed to serve as the main website for a " +
             "band that integrates with the Pictures and Songs services from the two other IBM Backend " +
-            "Capstone Projects. This application features dynamic web pages, including a home page, a songs" +
+            "Capstone Projects. This app features dynamic web pages, including a home page, a songs" +
             " page listing all song titles, and a photos page displaying images from past events. It " +
             "incorporates user authentication, allowing users to log in and access personalized features," +
-            " while administrators have the ability to create, edit, and delete concerts. The project " +
+            " while admins have the ability to create, edit, and delete concerts. The project " +
             "involves data modeling using Django models and migrations to establish tables and relationships," +
             " along with the implementation of business logic through controllers that manage interactions" +
-            " between data models and templates. Finally, this application was then deployed on IBM Kubernetes" +
+            " between data models and templates. Finally, this app was then deployed on IBM Kubernetes" +
             " Services during the final phase of the Capstone Project.",
         website: null,
         github: "https://github.com/JoeyScottSchronce/Back-end-Development-Capstone"
@@ -74,7 +74,7 @@ const ProjectCardData = {
         github: "https://github.com/JoeyScottSchronce/Back-End-Development-Pictures"
     },
     TestingAndBehavior: {
-        title: "Test-driven & Behavior-driven Development Project",
+        title: "Test-driven & Behavior-driven Development",
         image: "https://image.shutterstock.com/image-vector/picture-vector-icon-no-image-260nw-1732584305.jpg",
         content: "I developed a microservice for managing an eCommerce product catalog, applying Test-Driven " +
             "and Behavior-Driven Development to ensure reliability. The RESTful API supports full CRUD functionality" +

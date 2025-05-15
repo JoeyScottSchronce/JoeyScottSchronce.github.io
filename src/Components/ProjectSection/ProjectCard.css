@@ -128,13 +128,7 @@
     }
 }
 
-@media (max-width: 548px) {
-    .card-title {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 498px) {
+@media (max-width: 635px) {
     .card-container {
         max-width: 95%;
         margin: 0.5rem 0 0 0;
@@ -147,6 +141,21 @@
         font-size: 0.8rem;
     }
     .card-title {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .card-container {
+        max-width: 95%;
+        margin: 0.5rem 0 0 0;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .card-image {
+        min-width: 100px;
+        height: 100px;
+    }
+    .card-title {
+        margin: 0.2rem 0 0 0;
     }
 }

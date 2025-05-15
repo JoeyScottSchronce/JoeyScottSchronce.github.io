@@ -5,7 +5,6 @@ import "./NavBar.css"
 function NavBar() {
     return (
         <div id="NavBar" className="nav-container">
-            <div className="nav-title">Joey Scott Schronce</div>
             <nav className="nav-items-container">
                 <div className="nav-items"><Link to="/">Home</Link></div>
                 <div className="nav-items"><Link to="/about">About</Link></div>

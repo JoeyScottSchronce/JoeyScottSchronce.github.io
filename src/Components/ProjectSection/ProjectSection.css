@@ -1,4 +1,8 @@
 .projects-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
     margin: 1rem;
     padding: 0.5rem;
 }
@@ -17,18 +21,24 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: 1rem 0 0 0;
+    margin: 0;
 }
 
 .project-nav-buttons {
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    margin: 1rem 1rem 2.3rem 1rem;
 }
 
 .project-button {
     background-color: var(--light-base);
     border: 2px solid var(--secondary-color);
     color: var(--secondary-color);
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 1rem;
     padding: 0.2rem 1rem 0.2rem 1rem;
     border-radius: 25px;
     cursor: pointer;
@@ -59,13 +69,5 @@
 @media (max-width: 751px) {
     .project-button {
         font-size: 1rem;
-    }
-}
-
-@media (max-width: 498px) {
-    .projects-container {
-        margin: 0.2rem;
-        padding: 0;
-        width: 98%;
     }
 }
