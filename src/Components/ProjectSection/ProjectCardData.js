@@ -1,4 +1,5 @@
 
+// titles must be less than 42 characters long!
 // content must be less than 750 characters long!
 
 const ProjectCardData = {
