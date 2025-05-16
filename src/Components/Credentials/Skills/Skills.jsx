@@ -1,9 +1,9 @@
 import React from "react";
-import "./SkillsSection.css"
+import "./Skills.css"
 
-function SkillsSection() {
+function Skills() {
     return (
-        <div id="SkillsSection" className="skills-container">
+        <div id="Skills" className="skills-container">
             <h2>Skills</h2>
             <div className="skills-main-sub">
                 <div className="skill">
@@ -105,4 +105,4 @@ function SkillsSection() {
     )
 }
 
-export default SkillsSection;
+export default Skills;

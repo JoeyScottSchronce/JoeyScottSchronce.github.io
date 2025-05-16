@@ -4,7 +4,10 @@ import NavBar from './Components/NavBar/NavBar.jsx';
 import HeroSection from "./Components/HeroSection/HeroSection.jsx";
 import AboutSection from "./Components/AboutSection/AboutSection.jsx";
 import ProjectSection from "./Components/ProjectSection/ProjectSection.jsx";
-import SkillsSection from "./Components/SkillsSection/SkillsSection.jsx";
+import Credentials from "./Components/Credentials/Credentials.jsx";
+import Certificates from "./Components/Credentials/Certificates/Certificates.jsx";
+import Badges from "./Components/Credentials/Badges/Badges.jsx";
+import Skills from "./Components/Credentials/Skills/Skills.jsx";
 
 function App() {
     return (
@@ -30,7 +33,10 @@ function App() {
                     <Route path="/" element={<HeroSection />} />
                     <Route path="/about" element={<AboutSection />} />
                     <Route path="/projects" element={<ProjectSection />} />
-                    <Route path="/skills" element={<SkillsSection />} />
+                    <Route path="/credentials" element={<Credentials />} />
+                    <Route path="/certificates" element={<Certificates />} />
+                    <Route path="/badges" element={<Badges />} />
+                    <Route path="/skills" element={<Skills />} />
                 </Routes>
             </BrowserRouter>
         </>
