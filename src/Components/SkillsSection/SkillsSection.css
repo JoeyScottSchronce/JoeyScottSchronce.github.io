@@ -23,6 +23,10 @@
     padding: 1rem;
 }
 
+.skill h6 {
+    margin: 0.5rem;
+}
+
 img {
     max-width: 2rem;
 }

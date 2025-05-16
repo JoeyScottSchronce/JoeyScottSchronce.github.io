@@ -25,10 +25,15 @@
 
 .intro1 {
     margin: 0;
+    background-image: linear-gradient(to right, var(--secondary-color), var(--main-button));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .intro2 {
     text-align: center;
+    color: var(--dark-base);
 }
 
 .second-sub {
