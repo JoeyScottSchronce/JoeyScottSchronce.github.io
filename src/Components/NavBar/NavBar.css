@@ -46,7 +46,7 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 426px) {
     .nav-items {
         font-size: 0.8rem;
         margin: 0 0.2rem 0 0.2rem;

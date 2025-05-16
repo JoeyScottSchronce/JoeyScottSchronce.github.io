@@ -8,7 +8,7 @@
 }
 
 .about-container h2 {
-    margin: 0.5rem;
+    margin: 1rem;
     text-align: left;
     color: var(--text-color);
 }
@@ -16,7 +16,7 @@
 .main-p {
     margin: 0.5rem;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     max-width: 70%;
     color: var(--text-color);
 }
