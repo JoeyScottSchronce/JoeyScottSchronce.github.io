@@ -2,13 +2,14 @@
     max-width: 90%;
     margin: 0 1rem 0 1rem;
     padding: 1rem 1rem 0 1rem;
-    border: 2px solid var(--light-base);
+    border: 2px solid var(--background);
     border-radius: 15px;
-    background-color: var(--light-base);
+    background-color: var(--background);
     box-shadow: 0 0 5px 0 grey;
 }
 
 .card-title {
+    color: var(--text-color);
 }
 
 .card-content-container {
@@ -42,6 +43,7 @@
 .card-description {
     display: flex;
     margin: 0.5rem;
+    color: var(--text-color);
     ;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .card-button {
-    background-color: var(--light-base);
+    background-color: var(--background);
     border: 2px solid var(--main-button);
     color: var(--main-button);
     margin: 1rem;

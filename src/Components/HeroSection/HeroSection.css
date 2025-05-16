@@ -33,7 +33,7 @@
 
 .intro2 {
     text-align: center;
-    color: var(--dark-base);
+    color: var(--text-color);
 }
 
 .second-sub {
@@ -43,7 +43,7 @@
 }
 
 .third-sub {
-    background-color: var(--light-base);
+    background-color: var(--background);
     color: var(--main-button);
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 1.5rem;

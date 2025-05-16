@@ -5,13 +5,6 @@
     width: 100vw;
 }
 
-.nav-title {
-    color: var(--dark-base);
-    font-weight: bold;
-    font-size: 2rem;
-    margin:1rem;
-}
-
 .nav-items-container {
     display: flex;
     justify-content: space-between;
@@ -21,7 +14,7 @@
 }
 
 .nav-items {
-    background-color: var(--light-base);
+    background-color: var(--background);
     color: var(--secondary-color);
     padding: 0.2rem 1rem 0.2rem 1rem;
     border: 2px solid var(--secondary-color);
