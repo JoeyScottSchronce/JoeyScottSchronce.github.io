@@ -8,7 +8,7 @@ function AboutSection() {
                 <h2>Joey Scott Schronce</h2>
                 <div className="about-main-sub">
                     <img className="profile" src="/assets/Profile.webp" alt="image of Joey Scott Schronce" />
-                    <p className="main-p">
+                    <h6 className="main-p">
                         I’m a dedicated and detail-oriented software developer with a strong foundation in
                         web development and software engineering. I have experience in building scalable backend
                         applications using Python with the Flask and Django frameworks, as well as frontend
@@ -19,7 +19,7 @@ function AboutSection() {
                         cloud-native technologies, and NoSQL databases such as MongoDB. I have a solid
                         understanding of Test-Driven and Behavior-Driven Development, along with the DevOps,
                         Agile, and Scrum methodologies.
-                    </p>
+                    </h6>
                 </div>
             </div>
         </>
