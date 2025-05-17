@@ -49,7 +49,7 @@
     display: flex;
     margin: 0.5rem;
     color: var(--text-color);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .card-content {
@@ -131,7 +131,7 @@
     }
     .card-description {
         margin: 0;
-        font-size: 1.001rem;
+        font-size: 0.95rem;
         text-align: center;
     }
 }

@@ -17,7 +17,7 @@
     margin: 0.5rem;
     text-align: center;
     font-size: 1.2rem;
-    max-width: 70%;
+    max-width: 80%;
     color: var(--text-color);
 }
 
@@ -44,7 +44,6 @@
 
     }
     .main-p {
-        max-width: 80%;
         text-align: center;
         font-size: 1rem;
     }
@@ -57,7 +56,6 @@
     .profile {
     }
     .main-p {
-        max-width: 80%;
         text-align: center;
         font-size: 0.9rem;
     }
