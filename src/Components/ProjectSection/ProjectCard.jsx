@@ -5,7 +5,7 @@ function ProjectCard({ title, image, content, website, github }) {
 
     return (
         <div className="card-container">
-            <h3 className="card-title" >{title}</h3>
+            <h3 className={`card-title ${!image ? "large-title" : ""}`}>{title}</h3>
             <div className="card-content-container">
                 {image && (
                     <div className="card-image" ><img src={image} alt={title}/></div>

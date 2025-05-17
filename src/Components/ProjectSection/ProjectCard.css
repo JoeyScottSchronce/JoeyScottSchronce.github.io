@@ -14,7 +14,15 @@
 }
 
 .card-title {
+    text-align: center;
     color: var(--text-color);
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.large-title {
+    font-size: 2rem;
+    text-align: center;
 }
 
 .card-content-container {
@@ -127,12 +135,15 @@
         font-size: 1rem;
     }
     .card-title {
-        margin: 0;
+        font-size: 1.5rem;
     }
     .card-description {
         margin: 0;
         font-size: 0.95rem;
         text-align: center;
+    }
+    .large-title {
+        font-size: 1.9rem;
     }
 }
 
@@ -149,10 +160,13 @@
         font-size: 0.8rem;
     }
     .card-title {
-        font-size: 0.8rem;
+        font-size: 1.4rem;
     }
     .card-description {
         font-size: 0.9rem;
+    }
+    .large-title {
+        font-size: 1.7rem;
     }
 }
 
@@ -168,8 +182,56 @@
     }
     .card-title {
         margin: 0.2rem 0 0 0;
+        font-size: 1.2rem;
     }
     .card-description {
         font-size: 0.85rem;
+    }
+    .large-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .card-container {
+        max-width: 95%;
+        margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .card-image {
+        min-width: 90px;
+        height: 90px;
+    }
+    .card-title {
+        margin: 0.2rem 0 0 0;
+        font-size: 1rem;
+    }
+    .card-description {
+        font-size: 0.80rem;
+    }
+    .large-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 321px) {
+    .card-container {
+        max-width: 95%;
+        margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .card-image {
+        min-width: 80px;
+        height: 80px;
+    }
+    .card-title {
+        margin: 0.2rem 0 0 0;
+        font-size: 0.9rem;
+    }
+    .card-description {
+        font-size: 0.75rem;
+    }
+    .large-title {
+        font-size: 1.1rem;
     }
 }
