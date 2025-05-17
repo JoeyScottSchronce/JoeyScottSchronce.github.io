@@ -11,7 +11,7 @@ function ProjectCard({ title, image, content, website, github }) {
                     <div className="card-image" ><img src={image} alt={title}/></div>
                 )}
                 <div className="card-content">
-                    <p className="card-description">{content}</p>
+                    <h6 className="card-description">{content}</h6>
                     <div className="card-button-container">
                         <a href={github}><button className="card-button">Project Repository</button></a>
                         {website && (

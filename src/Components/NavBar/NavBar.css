@@ -46,9 +46,17 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 473px) {
     .nav-items {
         font-size: 0.8rem;
         margin: 0 0.2rem 0 0.2rem;
+    }
+}
+
+@media (max-width: 354px) {
+    .nav-items {
+        font-size: 0.7rem;
+        padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+
     }
 }

@@ -15,7 +15,7 @@
 
 .main-p {
     margin: 0.5rem;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
     max-width: 70%;
     color: var(--text-color);
@@ -23,14 +23,16 @@
 
 .about-main-sub {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0;
     gap: 1rem;
 }
 
 .profile {
-    min-width: 17rem;
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
 }
 
@@ -39,7 +41,7 @@
 
 @media (max-width: 1024px) {
     .profile {
-        min-width: 13rem;
+
     }
     .main-p {
         max-width: 80%;
@@ -53,7 +55,6 @@
 
 @media (max-width: 768px) {
     .profile {
-        min-width: 12rem;
     }
     .main-p {
         max-width: 80%;
@@ -62,13 +63,14 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 472px) {
     .profile {
-        min-width: 10rem;
+        width: 200px;
+        height: 200px;
     }
     .main-p {
         max-width: 90%;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 }
