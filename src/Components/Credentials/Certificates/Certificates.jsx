@@ -3,7 +3,9 @@ import "./Certificates.css"
 
 function Certificates() {
     return (
-        <div>Certificates</div>
+        <div className="certificates">
+            <h1>Certificates</h1>
+        </div>
     )
 }
 

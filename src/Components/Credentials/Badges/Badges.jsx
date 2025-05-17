@@ -3,7 +3,9 @@ import "./Badges.css"
 
 function Badges() {
     return (
-        <div>Badges</div>
+        <div className="badges">
+            <h1>Badges</h1>
+        </div>
     )
 }
 

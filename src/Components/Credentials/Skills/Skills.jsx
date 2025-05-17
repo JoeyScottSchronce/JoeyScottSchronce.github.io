@@ -4,7 +4,7 @@ import "./Skills.css"
 function Skills() {
     return (
         <div id="Skills" className="skills-container">
-            <h2>Skills</h2>
+            <h1>Skills</h1>
             <div className="skills-main-sub">
                 <div className="skill">
                     <img src="/assets/python.jpg" alt="Python logo" />
