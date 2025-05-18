@@ -18,7 +18,7 @@ const ProjectCardData = {
         github: "https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io"
     },
     DevOpsCapstone: {
-        title: "DevOps & Software Engineering Capstone Project",
+        title: "DevOps & Software Engineering Capstone",
         image: "/assets/DevOps.webp",
         content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
             "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
