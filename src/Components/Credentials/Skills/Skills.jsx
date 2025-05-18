@@ -1,112 +1,45 @@
 import React from "react";
-import "./Skills.css"
+import "./Skills.css";
+import SkillsData from "./SkillsData.js";
 
 function Skills() {
+    const calculateDuration = (startDate) => {
+        const start = new Date(startDate);
+        const now = new Date();
+        const years = now.getFullYear() - start.getFullYear();
+        const months = now.getMonth() - start.getMonth();
+
+        // Adjust for negative months (when the current month is before the start month)
+        const adjustedYears = months < 0 ? years - 1 : years;
+        const adjustedMonths = months < 0 ? months + 12 : months;
+
+        return `${adjustedYears} yrs, ${adjustedMonths} mts`;
+    };
+
+    const Skill = ({ title, image, start_date }) => {
+        const duration = calculateDuration(start_date);
+
+        return (
+            <div className="skill">
+                <img src={image} alt={`${title} logo`} />
+                <h6>{title}</h6>
+                <div>{duration}</div>
+            </div>
+        );
+    };
+
     return (
         <div id="Skills" className="skills">
             <h1>Skills</h1>
             <div className="skills-container">
                 <div className="skills-sub-container">
-
-                    <div className="skill">
-                        <img src="/assets/python.jpg" alt="Python logo" />
-                        <h6>Python</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/flask.png" alt="Flask logo" />
-                        <h6>Flask</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-                    <div className="skill">
-                        <img src="/assets/Django.jpg" alt="Django logo" />
-                        <h6>Django</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Docker.png" alt="Docker logo" />
-                        <h6>Docker</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Kubernetes.jpg" alt="Kubernetes logo" />
-                        <h6>Kubernetes</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Openshift.jpg" alt="Openshift logo" />
-                        <h6>Openshift</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/MongoDB.jpg" alt="MognoDB logo" />
-                        <h6>MongoDB</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Tekton.png" alt="Tekton logo" />
-                        <h6>Tekton</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/IBM%20Cloud.jpg" alt="IBM Cloud logo" />
-                        <h6>IBM Cloud</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/GitHub.png" alt="GitHub logo" />
-                        <h6>GitHub</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/react.png" alt="react logo" />
-                        <h6>React</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Vite.png" alt="Vite logo" />
-                        <h6>Vite</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/Bootstrap.png" alt="Bootstrap logo" />
-                        <h6>Bootstrap</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/html5.png" alt="html logo" />
-                        <h6>HTML</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/CSS3.png" alt="css logo" />
-                        <h6>CSS</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
-                    <div className="skill">
-                        <img src="/assets/js.jpeg" alt="javascript logo" />
-                        <h6>JavaScript</h6>
-                        <div>1 yrs, 5 mts</div>
-                    </div>
-
+                    {Object.values(SkillsData).map((skill, index) => (
+                        <Skill key={index} {...skill} />
+                    ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Skills;
