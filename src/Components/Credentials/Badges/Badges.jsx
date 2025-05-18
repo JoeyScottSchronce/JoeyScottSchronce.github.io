@@ -3,8 +3,13 @@ import "./Badges.css"
 
 function Badges() {
     return (
-        <div className="badges">
+        <div id="Badges" className="badges">
             <h1>Badges</h1>
+            <div className="badges-container">
+                <div className="badges-sub-container">
+                    <p>Add Badges here</p>
+                </div>
+            </div>
         </div>
     )
 }
