@@ -1,5 +1,18 @@
 import React from 'react';
 import "./Badges.css"
+import BadgesData from "./BadgesData.js";
+
+function Badge({ badge, image }) {
+    return (
+        <div className="badge">
+            <a href={badge} target="_blank" rel="noopener noreferrer">
+                <img src={image} alt={"Badge Icon"} />
+            </a>
+
+        </div>
+    );
+}
+
 
 function Badges() {
     return (
@@ -7,7 +20,9 @@ function Badges() {
             <h1>Badges</h1>
             <div className="badges-container">
                 <div className="badges-sub-container">
-                    <p>Add Badges here</p>
+                    {Object.values(BadgesData).map((badges, index) => (
+                        <Badge key={index} {...badges} />
+                    ))}
                 </div>
             </div>
         </div>
@@ -15,3 +30,4 @@ function Badges() {
 }
 
 export default Badges;
+

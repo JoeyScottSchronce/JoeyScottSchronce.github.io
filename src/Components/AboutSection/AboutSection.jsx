@@ -7,7 +7,7 @@ function AboutSection() {
             <div id="AboutSection" className="about-container">
                 <h2>Joey Scott Schronce</h2>
                 <div className="about-main-sub">
-                    <img className="profile" src="/assets/Profile.webp" alt="image of Joey Scott Schronce" />
+                    <img className="profile" src="/assets/about/Profile.webp" alt="image of Joey Scott Schronce" />
                     <h6 className="main-p">
                         I’m a dedicated and detail-oriented software developer with a strong foundation in
                         web development and software engineering. I have experience in building scalable backend

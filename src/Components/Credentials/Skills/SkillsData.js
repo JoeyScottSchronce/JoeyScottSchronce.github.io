@@ -42,7 +42,7 @@ const SkillsData = {
     9: {
         title: "IBM Cloud",
         image: "/assets/IBM%20Cloud.jpg",
-        start_date: "06/21/2024",
+        start_date: "12/02/2024",
     },
     10: {
         title: "GitHub",

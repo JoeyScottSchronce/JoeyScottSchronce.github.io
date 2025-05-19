@@ -21,7 +21,7 @@ function Skills() {
 
         return (
             <div className="skill">
-                <img src={image} alt={`${title} logo`} />
+                <img src={image} alt={title} />
                 <h6>{title}</h6>
                 <div>{duration}</div>
             </div>
