@@ -5,7 +5,7 @@
 const ProjectCardData = {
     PortfolioProject: {
         title: "Portfolio Project",
-        image: "/assets/portfolio.webp",
+        image: "/assets/projects/portfolio.webp",
         content: "This is my fully-responsive portfolio website project. It's built using " +
             "React, Vite, and hosted on GitHub Pages. This project showcases my journey in software development, " +
             "applying all the skills I've been honing throughout the IBM Frontend Development Professional " +
@@ -19,7 +19,7 @@ const ProjectCardData = {
     },
     DevOpsCapstone: {
         title: "DevOps & Software Engineering Capstone",
-        image: "/assets/DevOps.webp",
+        image: "/assets/projects/DevOps.webp",
         content: "I built an Accounts microservice to manage customer data for an e-commerce platform, " +
             "applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I " +
             "automated workflows while structuring development via a Kanban board and milestone-based sprints." +
@@ -33,7 +33,7 @@ const ProjectCardData = {
     },
     FrontendCapstone: {
         title: "Frontend Development Capstone Project",
-        image: "/assets/frontend.webp",
+        image: "/assets/projects/frontend.webp",
         content: "I created a desktop-only medical appointment booking website called Stay Healthy, to provide" +
             " access to medical care in remote areas. This desktop website is designed to allow patients " +
             "to schedule appointments with healthcare providers easily. The platform enables users " +
@@ -49,7 +49,7 @@ const ProjectCardData = {
     },
     BackendCapstone: {
         title: "Backend Development Capstone Project",
-        image: "/assets/backend.webp",
+        image: "/assets/projects/backend.webp",
         content: "I created a Django-based web app designed to serve as the main website for a " +
             "band that integrates with the Pictures and Songs services from the two other IBM Backend " +
             "Capstone Projects. This app features dynamic web pages, including a home page, a songs" +
@@ -65,7 +65,7 @@ const ProjectCardData = {
     },
     BackendSongs: {
         title: "Songs Project for Backend Capstone",
-        image: "/assets/Songs.webp",
+        image: "/assets/projects/Songs.webp",
         content: "I developed a Flask-based web service for retrieving song data, integrating MongoDB for efficient" +
             " storage and retrieval. Deployed on IBM Code Engine using IBM Cloud, the service provides a RESTful API" +
             " and includes Python unit tests to ensure reliability. Through this capstone, I gained insights into " +
@@ -78,7 +78,7 @@ const ProjectCardData = {
     },
     BackendPictures: {
         title: "Pictures Project for Backend Capstone",
-        image: "/assets/Pictures.webp",
+        image: "/assets/projects/Pictures.webp",
         content: "I built a Flask-based service to retrieve concert event images from cloud storage, ensuring " +
             "reliability with Python unit tests. Using a GitHub template, I developed RESTful APIs for handling " +
             "picture URLs, implemented robust error handling, and integrated external APIs within Flask. The " +
@@ -90,7 +90,7 @@ const ProjectCardData = {
     },
     TestingAndBehavior: {
         title: "Test-driven & Behavior-driven Development",
-        image: "/assets/TDD_BDD.webp",
+        image: "/assets/projects/TDD_BDD.webp",
         content: "I developed a microservice for managing an eCommerce product catalog, applying Test-Driven " +
             "and Behavior-Driven Development to ensure reliability. The RESTful API supports full CRUD functionality" +
             " and advanced product search by category, availability, and name. BDD-based testing validates the" +
