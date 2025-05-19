@@ -1,82 +1,82 @@
 const SkillsData = {
     1: {
         title: "Python",
-        image: "/assets/python.jpg",
+        image: "/assets/skills/python.jpg",
         start_date: "11/28/2023",
     },
     2: {
         title: "Flask",
-        image: "/assets/flask.png",
+        image: "/assets/skills/flask.png",
         start_date: "11/07/2024",
     },
     3: {
         title: "Django",
-        image: "/assets/Django.jpg",
+        image: "/assets/skills/Django.jpg",
         start_date: "4/28/2025",
     },
     4: {
         title: "Docker",
-        image: "/assets/Docker.png",
+        image: "/assets/skills/Docker.png",
         start_date: "12/02/2024",
     },
     5: {
         title: "Kubernetes",
-        image: "/assets/Kubernetes.jpg",
+        image: "/assets/skills/Kubernetes.jpg",
         start_date: "12/02/2024",
     },
     6: {
         title: "Openshift",
-        image: "/assets/Openshift.jpg",
+        image: "/assets/skills/Openshift.jpg",
         start_date: "12/02/2024",
     },
     7: {
         title: "MongoDB",
-        image: "/assets/MongoDB.jpg",
+        image: "/assets/skills/MongoDB.jpg",
         start_date: "06/21/2024",
     },
     8: {
         title: "Tekton",
-        image: "/assets/Tekton.png",
+        image: "/assets/skills/Tekton.png",
         start_date: "03/07/2025",
     },
     9: {
         title: "IBM Cloud",
-        image: "/assets/IBM%20Cloud.jpg",
+        image: "/assets/skills/IBM%20Cloud.jpg",
         start_date: "12/02/2024",
     },
     10: {
         title: "GitHub",
-        image: "/assets/GitHub.png",
+        image: "/assets/skills/GitHub.png",
         start_date: "04/08/2024",
     },
     11: {
         title: "React",
-        image: "/assets/react.png",
+        image: "/assets/skills/react.png",
         start_date: "10/26/2024",
     },
     12: {
         title: "Vite",
-        image: "/assets/Vite.png",
+        image: "/assets/skills/Vite.png",
         start_date: "10/26/2024",
     },
     13: {
         title: "Bootstrap",
-        image: "/assets/Bootstrap.png",
+        image: "/assets/skills/Bootstrap.png",
         start_date: "09/04/2024",
     },
     14: {
         title: "HTML",
-        image: "/assets/html5.png",
+        image: "/assets/skills/html5.png",
         start_date: "08/17/2024",
     },
     15: {
         title: "CSS",
-        image: "/assets/CSS3.png",
+        image: "/assets/skills/CSS3.png",
         start_date: "08/17/2024",
     },
     16: {
         title: "JavaScript",
-        image: "/assets/JavaScript.jpeg",
+        image: "/assets/skills/JavaScript.jpeg",
         start_date: "08/17/2024",
     },
     17: {
