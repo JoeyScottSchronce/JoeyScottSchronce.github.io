@@ -2,10 +2,10 @@ import React from 'react';
 import "./Certificates.css"
 import CertificatesData from "./CertificatesData.js";
 
-function Certificate({ certificate, image }) {
+function Certificate({ certificate, backup, image }) {
     return (
         <div className="certificate">
-            <a href={certificate} target="_blank" rel="noopener noreferrer">
+            <a href={certificate ? certificate : backup } target="_blank" rel="noopener noreferrer">
                 <img src={image} alt={"Certificate Icon"} />
             </a>
 
