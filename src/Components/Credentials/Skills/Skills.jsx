@@ -13,7 +13,10 @@ function Skills() {
         const adjustedYears = months < 0 ? years - 1 : years;
         const adjustedMonths = months < 0 ? months + 12 : months;
 
-        return `${adjustedYears} yrs, ${adjustedMonths} mts`;
+        return <div className="duration">
+            <div> { adjustedYears === 0 ? "" : `${adjustedYears} ${adjustedYears === 1 ? "year" : "years"}` } </div>
+            <div> { adjustedMonths === 0 ? "" : `${adjustedMonths} ${adjustedMonths === 1 ? "month" : "months"}` } </div>
+        </div>;
     };
 
     const Skill = ({ title, image, start_date }) => {
@@ -21,8 +24,8 @@ function Skills() {
 
         return (
             <div className="skill">
-                <img src={image} alt={title} />
                 <h6>{title}</h6>
+                <img src={image} alt={title} />
                 <div>{duration}</div>
             </div>
         );

@@ -6,12 +6,12 @@ const SkillsData = {
     },
     2: {
         title: "Flask",
-        image: "/assets/skills/flask.webp",
+        image: "/assets/skills/Flask.webp",
         start_date: "11/07/2024",
     },
     3: {
         title: "Django",
-        image: "/assets/skills/Django.webp",
+        image: "/assets/skills/django.webp",
         start_date: "4/28/2025",
     },
     4: {
@@ -66,12 +66,12 @@ const SkillsData = {
     },
     14: {
         title: "HTML",
-        image: "/assets/skills/html5.webp",
+        image: "/assets/skills/html.webp",
         start_date: "08/17/2024",
     },
     15: {
         title: "CSS",
-        image: "/assets/skills/CSS3.webp",
+        image: "/assets/skills/css.webp",
         start_date: "08/17/2024",
     },
     16: {
@@ -80,7 +80,7 @@ const SkillsData = {
         start_date: "08/17/2024",
     },
     17: {
-        title: "Shell Scripting",
+        title: "Bash",
         image: "/assets/skills/bash.webp",
         start_date: "08/22/2024",
     },
