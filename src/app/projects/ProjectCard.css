@@ -99,6 +99,7 @@
 }
 
 .card-button:hover {
+    transition: transform 0.2s ease, background-color 0.2s ease;
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     color: white;

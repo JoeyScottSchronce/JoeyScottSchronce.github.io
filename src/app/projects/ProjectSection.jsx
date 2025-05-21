@@ -1,29 +1,19 @@
-"use client";
 
-import React, { useState } from "react";
+import Link from "next/link";
 import ProjectCard from "./ProjectCard.jsx";
 import "./ProjectSection.css";
 import ProjectCardData from "./ProjectCardData.js";
 
-const ProjectSection = () => {
+const ProjectSection = ({ startIndex }) => {
     const projectEntries = Object.entries(ProjectCardData);
-    const [startIndex, setStartIndex] = useState(0);
 
     // Number of projects displayed at a time
     const DISPLAY_COUNT = 1;
 
-    // Next & Back button handlers
-    const handleNext = () => {
-        if (startIndex + DISPLAY_COUNT < projectEntries.length) {
-            setStartIndex(startIndex + DISPLAY_COUNT);
-        }
-    };
+    // Calculate the current page and total pages
+    const currentPage = Math.floor(startIndex / DISPLAY_COUNT) + 1;
+    const totalPages = Math.ceil(projectEntries.length / DISPLAY_COUNT);
 
-    const handleBack = () => {
-        if (startIndex - DISPLAY_COUNT >= 0) {
-            setStartIndex(startIndex - DISPLAY_COUNT);
-        }
-    };
 
     return (
         <div className="projects-container">
@@ -31,12 +21,27 @@ const ProjectSection = () => {
                 <h2>Projects</h2>
             </div>
             <div className="projects-sub-container">
-                {projectEntries.slice(startIndex, startIndex + DISPLAY_COUNT).map(([key, project]) => (
-                    <ProjectCard key={key} {...project} />
-                ))}
+                {projectEntries
+                    .slice(startIndex, startIndex + DISPLAY_COUNT)
+                    .map(([key, project]) => (
+                        <ProjectCard key={key} {...project} />
+                    ))}
+
                 <div className="project-nav-buttons">
-                    <button className="project-button" onClick={handleBack} disabled={startIndex === 0}>Back</button>
-                    <button className="project-button" onClick={handleNext} disabled={startIndex + DISPLAY_COUNT >= projectEntries.length}>Next</button>
+                    <Link
+                        href={`/projects?page=${currentPage - 1}`}
+                        className={`project-button ${currentPage === 1 ? "disabled" : ""}`}
+                        shallow
+                    >
+                        Back
+                    </Link>
+                    <Link
+                        href={`/projects?page=${currentPage + 1}`}
+                        className={`project-button ${currentPage === totalPages ? "disabled" : ""}`}
+                        shallow
+                    >
+                        Next
+                    </Link>
                 </div>
             </div>
         </div>
