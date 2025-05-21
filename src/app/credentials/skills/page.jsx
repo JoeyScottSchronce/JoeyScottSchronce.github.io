@@ -1,6 +1,11 @@
 import React from "react";
-import "./Skills.css";
+import "./skills.css";
 import SkillsData from "./SkillsData.js";
+
+export const metadata = {
+    title: "Skills - Joey Scott Schronce Portfolio",
+    description: "Explore my software engineering skills with duration of experience.",
+};
 
 function Skills() {
     const calculateDuration = (startDate) => {

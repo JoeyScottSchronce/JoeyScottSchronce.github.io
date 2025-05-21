@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./Credentials.module.css"
+import styles from "./credentials.module.css"
 
 export default function Credentials() {
 

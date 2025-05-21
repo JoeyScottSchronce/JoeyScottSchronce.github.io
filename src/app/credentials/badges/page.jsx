@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Badges.css"
+import "./badges.css"
 import BadgesData from "./BadgesData.js";
 
 function Badge({ badge, image }) {

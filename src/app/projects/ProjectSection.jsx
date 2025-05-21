@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard.jsx";
 import "./ProjectSection.css";
