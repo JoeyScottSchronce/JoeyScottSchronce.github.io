@@ -1,6 +1,11 @@
 import Link from "next/link";
 import styles from "./credentials.module.css"
 
+export const metadata = {
+    title: "Credentials - Joey Scott Schronce Portfolio",
+    description: "View Joey Scott Schronce's certificates, badges, and skills in software engineering.",
+};
+
 export default function Credentials() {
 
     return (

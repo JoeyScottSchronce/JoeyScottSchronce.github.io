@@ -4,7 +4,7 @@ import "./globals.css"
 
 export const metadata = {
     title: "Joey Scott Schronce Portfolio",
-    description: "Portfolio showcasing my skills, badges, certificates, and projects as a Software Engineer.",
+    description: "Portfolio showcasing my skills, badges, certificates, and projects as a Software Developer.",
     charset: "UTF-8",
     icons: {
         icon: "/favicon.ico",

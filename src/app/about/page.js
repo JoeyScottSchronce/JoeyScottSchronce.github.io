@@ -1,5 +1,10 @@
 import styles from "./about.module.css"
 
+export const metadata = {
+    title: "About Me - Joey Scott Schronce Portfolio",
+    description: "Learn about Joey Scott Schronce, a dedicated software developer with a passion for innovative solutions.",
+};
+
 export default function About() {
     return (
         <div className={styles.aboutContainer}>

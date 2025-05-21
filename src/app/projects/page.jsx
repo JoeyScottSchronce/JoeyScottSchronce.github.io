@@ -2,6 +2,20 @@
 import ProjectSection from "./ProjectSection";
 import ProjectCardData from "./ProjectCardData";
 
+export async function generateMetadata({ params }) {
+    const page = parseInt(params.page) || 1;
+    const startIndex = (page - 1);
+    const projectEntries = Object.entries(ProjectCardData);
+    const project = projectEntries[startIndex]?.[1]; // Get the project data
+
+    return {
+        title: project ? `${project.title} - Joey Scott Schronce Portfolio` : "Projects",
+        description: project
+            ? `${project.content.slice(0, 150)}...`
+            : "Explore Joey Scott Schronce's software projects and innovations.",
+    };
+}
+
 // Calculate total pages for static generation (optional)
 export async function generateStaticParams() {
     const totalProjects = Object.keys(ProjectCardData).length;

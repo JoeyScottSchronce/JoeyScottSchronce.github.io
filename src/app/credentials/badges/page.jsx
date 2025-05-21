@@ -2,6 +2,11 @@ import React from 'react';
 import "./badges.css"
 import BadgesData from "./BadgesData.js";
 
+export const metadata = {
+    title: "Badges - Joey Scott Schronce Portfolio",
+    description: "Discover my Credly Badges reflecting achievements in Software Engineering and Web Development.",
+};
+
 function Badge({ badge, image }) {
     return (
         <div className="badge">

@@ -2,6 +2,11 @@
 import Link from "next/link";
 import styles from "@/app/home.module.css";
 
+export const metadata = {
+  title: "Joey Scott Schronce - Software Developer Portfolio",
+  description: "Explore Joey Scott Schronce's portfolio showcasing skills, projects, and credentials in software engineering.",
+};
+
 export default function Home() {
   return (
       <div className={styles.container}>
