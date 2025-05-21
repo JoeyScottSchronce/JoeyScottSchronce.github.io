@@ -1,6 +1,7 @@
 // src/app/page.jsx
 import Link from "next/link";
 import styles from "@/app/home.module.css";
+import SocialMediaLinks from "./Components/SocialMediaLinks/SocialMediaLinks";
 
 export const metadata = {
   title: "Joey Scott Schronce - Software Developer Portfolio",
@@ -25,6 +26,7 @@ export default function Home() {
           <div className={styles.thirdSub}>
             <Link href="/projects">Explore My Projects</Link>
           </div>
+          <SocialMediaLinks />
         </div>
       </div>
   );

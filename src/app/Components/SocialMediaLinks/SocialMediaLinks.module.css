@@ -1,0 +1,42 @@
+.socialMediaContainer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.socialMediaLinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    background-color: white;
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+}
+
+.socialLink:hover {
+    background-image: linear-gradient(to top left, var(--secondary-color), var(--main-button));;
+    transform: scale(1.1);
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 426px) {
+    .socialIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
