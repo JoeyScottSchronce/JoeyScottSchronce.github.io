@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.css";
+import styles from "./skills.module.css";
 import SkillsData from "./SkillsData.js";
 
 export const metadata = {
@@ -18,7 +18,7 @@ function Skills() {
         const adjustedYears = months < 0 ? years - 1 : years;
         const adjustedMonths = months < 0 ? months + 12 : months;
 
-        return <div className="duration">
+        return <div className={styles.duration}>
             <div> { adjustedYears === 0 ? "" : `${adjustedYears} ${adjustedYears === 1 ? "year" : "years"}` } </div>
             <div> { adjustedMonths === 0 ? "" : `${adjustedMonths} ${adjustedMonths === 1 ? "month" : "months"}` } </div>
         </div>;
@@ -28,7 +28,7 @@ function Skills() {
         const duration = calculateDuration(start_date);
 
         return (
-            <div className="skill">
+            <div className={styles.skill}>
                 <h6>{title}</h6>
                 <img src={image} alt={title} />
                 <div>{duration}</div>
@@ -37,10 +37,10 @@ function Skills() {
     };
 
     return (
-        <div id="Skills" className="skills">
+        <div className={styles.skills}>
             <h1>Skills</h1>
-            <div className="skills-container">
-                <div className="skills-sub-container">
+            <div className={styles.skillsContainer}>
+                <div className={styles.skillsSubContainer}>
                     {Object.values(SkillsData).map((skill, index) => (
                         <Skill key={index} {...skill} />
                     ))}
