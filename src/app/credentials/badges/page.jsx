@@ -1,5 +1,5 @@
 import React from 'react';
-import "./badges.css"
+import styles from "./badges.module.css"
 import BadgesData from "./BadgesData.js";
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
 
 function Badge({ badge, image }) {
     return (
-        <div className="badge">
+        <div className={styles.badge}>
             <a href={badge} target="_blank" rel="noopener noreferrer">
                 <img src={image} alt={"Badge Icon"} />
             </a>
@@ -21,10 +21,10 @@ function Badge({ badge, image }) {
 
 function Badges() {
     return (
-        <div id="Badges" className="badges">
+        <div className={styles.badges}>
             <h1>Badges</h1>
-            <div className="badges-container">
-                <div className="badges-sub-container">
+            <div className={styles.badgesContainer}>
+                <div className={styles.badgesSubContainer}>
                     {Object.values(BadgesData).map((badges, index) => (
                         <Badge key={index} {...badges} />
                     ))}
