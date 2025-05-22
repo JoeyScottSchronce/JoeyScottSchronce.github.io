@@ -1,5 +1,5 @@
 // src/app/layout.js
-import NavBar from "@/app/NavBar/NavBar";
+import NavBar from "./NavBar/NavBar";
 import "./styles/globals.css"
 
 export const metadata = {

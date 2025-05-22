@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./styles/home.module.css";
-import SocialMediaLinks from "@/app/SocialMediaLinks/SocialMediaLinks";
+import SocialMediaLinks from "./SocialMediaLinks/SocialMediaLinks";
 
 export const metadata = {
   title: "Joey Scott Schronce - Software Developer Portfolio",
