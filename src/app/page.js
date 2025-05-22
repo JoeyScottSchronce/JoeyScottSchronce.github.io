@@ -1,6 +1,6 @@
 import Link from "next/link";
-import styles from "./home.module.css";
-import SocialMediaLinks from "./Components/SocialMediaLinks/SocialMediaLinks";
+import styles from "./styles/home.module.css";
+import SocialMediaLinks from "@/app/SocialMediaLinks/SocialMediaLinks";
 
 export const metadata = {
   title: "Joey Scott Schronce - Software Developer Portfolio",
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
 
           <div className={styles.thirdSub}>
-            <Link href="/projects">Explore My Projects</Link>
+            <Link href="/projects/">Explore My Projects</Link>
           </div>
           <SocialMediaLinks />
         </div>

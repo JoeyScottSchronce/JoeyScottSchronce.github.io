@@ -4,4 +4,5 @@ const nextConfig = {
     assetPrefix: "./",
     trailingSlash: true,
 };
+
 module.exports = nextConfig;

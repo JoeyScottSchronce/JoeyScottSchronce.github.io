@@ -1,4 +1,4 @@
-import styles from "./about.module.css"
+import styles from "../styles/about.module.css"
 
 export const metadata = {
     title: "About Me - Joey Scott Schronce Portfolio",

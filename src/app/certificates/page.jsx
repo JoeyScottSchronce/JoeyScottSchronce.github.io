@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./certificates.module.css"
+import styles from "../styles/certificates.module.css"
 import CertificatesData from "./CertificatesData.js";
 
 export const metadata = {

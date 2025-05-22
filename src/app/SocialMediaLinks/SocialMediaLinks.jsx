@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./SocialMediaLinks.module.css";
+import styles from "../styles/SocialMediaLinks.module.css";
 
 // Define your social media links
 const socialMediaData = [

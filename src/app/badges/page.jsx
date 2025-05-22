@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./badges.module.css"
+import styles from "../styles/badges.module.css"
 import BadgesData from "./BadgesData.js";
 
 export const metadata = {

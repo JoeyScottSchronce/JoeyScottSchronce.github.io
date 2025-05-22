@@ -1,5 +1,5 @@
 
-import styles from "./projects.module.css";
+import styles from "../styles/projects.module.css";
 import ProjectCardData from "./ProjectCardData.js";
 import React from "react";
 

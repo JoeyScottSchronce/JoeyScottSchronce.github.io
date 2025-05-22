@@ -1,6 +1,6 @@
 // src/app/layout.js
-import NavBar from "./Components/NavBar/NavBar";
-import "./globals.css"
+import NavBar from "@/app/NavBar/NavBar";
+import "./styles/globals.css"
 
 export const metadata = {
     title: "Joey Scott Schronce Portfolio",
