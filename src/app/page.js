@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "@/app/home.module.css";
+import styles from "./home.module.css";
 import SocialMediaLinks from "./Components/SocialMediaLinks/SocialMediaLinks";
 
 export const metadata = {

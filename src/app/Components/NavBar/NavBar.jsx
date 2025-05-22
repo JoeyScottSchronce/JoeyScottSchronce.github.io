@@ -4,7 +4,7 @@ import styles from "./NavBar.module.css"; // Use CSS Modules
 
 export default function NavBar() {
     return (
-        <div id="NavBar" className={styles.navContainer}>
+        <div className={styles.navContainer}>
             <nav className={styles.navItemsContainer}>
                 <div className={styles.navItems}>
                     <Link href="/">Home</Link>
