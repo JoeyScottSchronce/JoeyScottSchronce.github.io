@@ -1,5 +1,5 @@
 import React from 'react';
-import "./certificates.css"
+import styles from "./certificates.module.css"
 import CertificatesData from "./CertificatesData.js";
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
 
 function Certificate({ certificate, image }) {
     return (
-        <div className="certificate">
+        <div className={styles.certificate}>
             <a href={certificate} target="_blank" rel="noopener noreferrer">
                 <img src={image} alt={"Certificate Icon"} />
             </a>
@@ -20,10 +20,10 @@ function Certificate({ certificate, image }) {
 
 function Certificates() {
     return (
-        <div className="certificates">
+        <div className={styles.certificates}>
             <h1>Certificates</h1>
-            <div className="certificates-container">
-                <div className="certificates-sub-container">
+            <div className={styles.certificatesContainer}>
+                <div className={styles.certificatesSubContainer}>
                     {Object.values(CertificatesData).map((certificate, index) => (
                         <Certificate key={index} {...certificate} />
                     ))}
