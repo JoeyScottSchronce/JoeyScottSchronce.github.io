@@ -1,33 +1,50 @@
-// src/app/projects/page.jsx
-import ProjectSection from "./ProjectSection";
-import ProjectCardData from "./ProjectCardData";
 
-export async function generateMetadata({ params }) {
-    const page = parseInt(params.page) || 1;
-    const startIndex = (page - 1);
-    const projectEntries = Object.entries(ProjectCardData);
-    const project = projectEntries[startIndex]?.[1]; // Get the project data
+import "./ProjectSection.css";
+import ProjectCardData from "./ProjectCardData.js";
+import React from "react";
 
-    return {
-        title: project ? `${project.title} - Joey Scott Schronce Portfolio` : "Projects",
-        description: project
-            ? `${project.content.slice(0, 150)}...`
-            : "Explore Joey Scott Schronce's software projects and innovations.",
-    };
+function ProjectCard({ title, image, content, website, github }) {
+
+    return (
+        <div className="slide-box">
+            <div className="card-container">
+                <h3 className={image ? "card-title" : "large-title"}>{title}</h3>
+                <div className="card-content-container">
+                    {image && (
+                        <div className="card-image" ><img src={image} alt={title}/></div>
+                    )}
+                    <div>
+                        <div className={image ? "card-content" : "large-content"}>
+                            <h6 className="card-description">{content}</h6>
+                        </div>
+                        <div className="card-button-container">
+                            <a href={github}><button className="card-button">Project Repository</button></a>
+                            {website && (
+                                <a href={website}><button className="card-button">See the Website</button></a>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
 }
 
-// Calculate total pages for static generation (optional)
-export async function generateStaticParams() {
-    const totalProjects = Object.keys(ProjectCardData).length;
-    const totalPages = Math.ceil(totalProjects); // 1 project per page (DISPLAY_COUNT)
-    return Array.from({ length: totalPages }, (_, i) => ({
-        page: (i + 1).toString(),
-    }));
-}
+const ProjectSection = () => {
 
-export default function Projects({ searchParams }) {
-    const page = parseInt(searchParams.page) || 1; // Default to page 1
-    const startIndex = (page - 1); // 1 project per page (DISPLAY_COUNT)
+    return (
+        <div className="projects-container">
+            <div className="projects-title-container">
+                <h2>Projects</h2>
+            </div>
+            <div className="projects-sub-container">
+                {Object.values(ProjectCardData).map((project, index) => (
+                    <ProjectCard key={index} {...project} />
+                ))}
+            </div>
+            <h6 className="directions-header">Swipe right to see more projects</h6>
+        </div>
+    );
+};
 
-    return <ProjectSection startIndex={startIndex} />;
-}
+export default ProjectSection;

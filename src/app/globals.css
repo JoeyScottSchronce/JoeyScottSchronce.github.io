@@ -8,11 +8,17 @@
     --text-color: #fffefe;
 }
 
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100dvh;
+    overflow: hidden;
+}
+
 body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: black;
     font-family: Roboto, sans-serif;
 }
@@ -58,16 +64,6 @@ a {
 .blobTwoSecond { top: 75%; left: 60%; }
 .blobTwoThird { top: 60%; left: 1%; }
 .blobTwoFour { top: 20%; left: 20%; }
-
-
-
-html, body, #root {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    min-height: 100dvh;
-    overflow: hidden;
-}
 
 
 @media (max-width: 768px) {

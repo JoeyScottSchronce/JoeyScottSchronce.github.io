@@ -1,4 +1,3 @@
-// src/app/page.jsx
 import Link from "next/link";
 import styles from "@/app/home.module.css";
 import SocialMediaLinks from "./Components/SocialMediaLinks/SocialMediaLinks";
