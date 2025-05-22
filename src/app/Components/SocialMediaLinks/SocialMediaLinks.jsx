@@ -11,7 +11,7 @@ const socialMediaData = [
     {
         platform: "Twitter",
         url: "https://x.com/CodeQuestBlog",
-        icon: "/assets/icons/twitter.jpg",
+        icon: "/assets/icons/twitter.svg",
     },
     {
         platform: "GitHub",
@@ -19,6 +19,34 @@ const socialMediaData = [
         icon: "/assets/icons/github.svg",
     },
 ];
+
+export const metadata = {
+    title: "Software Developer Portfolio by Joey Scott Schronce",
+    description:
+        "Explore Joey Scott Schronce's portfolio: skills, projects, credentials, and connect via LinkedIn, Twitter, GitHub.",
+    openGraph: {
+        title: "Software Developer Portfolio by Joey Scott Schronce",
+        description:
+            "Explore Joey Scott Schronce's portfolio: skills, projects, credentials, and connect via LinkedIn, Twitter, GitHub.",
+        url: "https://joeyscottschronce.github.io/",
+        images: [
+            {
+                url: "/assets/summary_large_image.webp",
+                width: 1200,
+                height: 600,
+            },
+        ],
+        siteName: "Joey Scott Schronce Portfolio",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Software Developer Portfolio by Joey Scott Schronce",
+        description:
+            "Explore Joey Scott Schronce's portfolio: skills, projects, credentials, and connect via LinkedIn, Twitter, GitHub.",
+        images: ["/assets/summary_large_image.webp"],
+        creator: "@CodeQuestBlog",
+    },
+};
 
 const SocialMediaLinks = () => {
     return (

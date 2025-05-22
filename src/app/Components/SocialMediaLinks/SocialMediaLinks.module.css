@@ -1,42 +1,50 @@
 .socialMediaContainer {
     position: fixed;
-    width: 100%;
     bottom: 0;
     right: 0;
     text-align: center;
     padding: 0.5rem;
-    margin: 0 0 0.5rem 0;
+    margin: 0;
 }
 
 .socialMediaLinks {
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 0.2rem;
 }
 
 .socialLink {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.2rem;
-    background-color: white;
     transition: transform 0.2s ease;
     border-radius: 10px;
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .socialLink:hover {
-    background-image: linear-gradient(to top left, var(--secondary-color), var(--main-button));;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .socialIcon {
     width: 40px;
     height: 40px;
+    border-radius: 10px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 769px) {
+    .socialMediaLinks {
+
+        }
     .socialIcon {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .socialLink {
+        background-color: white;
+        padding: 0.2rem;
+        margin: 0 0.2rem 0 0.2rem;
     }
 }
