@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[220],{4483:(_,a,o)=>{Promise.resolve().then(o.t.bind(o,5709,23))},5709:_=>{_.exports={aboutContainer:"about_aboutContainer__sdztg",mainP:"about_mainP__rjiCx",aboutMainSub:"about_aboutMainSub___KzCE",profile:"about_profile__4m_Ak"}}},_=>{var a=a=>_(_.s=a);_.O(0,[466,441,684,358],()=>a(4483)),_N_E=_.O()}]);
