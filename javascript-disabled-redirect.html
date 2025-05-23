@@ -30,41 +30,53 @@
     <div class="blobOne" ></div>
 </div>
 
+<main>
 
-<div class="container">
-    <div class="sub-container">
-        <div class="first-sub">
-            <h1 class="intro1">Welcome to my Portfolio!</h1>
+    <section>
+        <div class="container">
+            <div class="sub-container">
+                <div class="first-sub">
+                    <h1 class="intro1">Welcome to my Portfolio!</h1>
+                </div>
+                <div class="second-sub">
+                    <div class="intro2" >As a Software Engineer, my expertise is in building reliable and
+                        efficient backend systems, APIs, and innovative software solutions.
+                    </div>
+                </div>
+            </div>
+            <h6 style="color: var(--text-color);">Swipe down to see more</h6>
         </div>
-        <div class="second-sub">
-            <div class="intro2" >As a Software Engineer, my expertise is in building reliable and
-                efficient backend systems, APIs, and innovative software solutions.
+    </section>
+
+
+    <section>
+        <div>
+            <div class="about-container">
+                <h2>Joey Scott Schronce</h2>
+                <div class="about-main-sub">
+                    <img class="profile" src="/assets/about/Profile.webp" alt="image of Joey Scott Schronce" />
+                    <h6 class="main-p">
+                        I’m a dedicated and detail-oriented software developer with a strong foundation in
+                        web development and software engineering. I have experience in building scalable backend
+                        applications using Python with the Flask and Django frameworks, as well as frontend
+                        development with JavaScript using the React and Vite frameworks. I am proficient in
+                        creating and managing CI/CD pipelines using Tekton and deploying containerized
+                        applications to IBM Cloud Container Registry, using tools like Docker, Kubernetes,
+                        and OpenShift. I’ve also been taught how to use version control with Git/GitHub,
+                        cloud-native technologies, and NoSQL databases such as MongoDB. I have a solid
+                        understanding of Test-Driven and Behavior-Driven Development, along with the DevOps,
+                        Agile, and Scrum methodologies.
+                    </h6>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
+    <section>
 
-<div>
-    <div class="about-container">
-        <h2>Joey Scott Schronce</h2>
-        <div class="about-main-sub">
-            <img class="profile" src="/assets/about/Profile.webp" alt="image of Joey Scott Schronce" />
-            <h6 class="main-p">
-                I’m a dedicated and detail-oriented software developer with a strong foundation in
-                web development and software engineering. I have experience in building scalable backend
-                applications using Python with the Flask and Django frameworks, as well as frontend
-                development with JavaScript using the React and Vite frameworks. I am proficient in
-                creating and managing CI/CD pipelines using Tekton and deploying containerized
-                applications to IBM Cloud Container Registry, using tools like Docker, Kubernetes,
-                and OpenShift. I’ve also been taught how to use version control with Git/GitHub,
-                cloud-native technologies, and NoSQL databases such as MongoDB. I have a solid
-                understanding of Test-Driven and Behavior-Driven Development, along with the DevOps,
-                Agile, and Scrum methodologies.
-            </h6>
-        </div>
-    </div>
-</div>
+    </section>
+</main>
+
 
 
 <div class="projects-container">
@@ -84,7 +96,11 @@
                         <img src="/assets/projects/portfolio.webp" alt="Portfolio Project Screenshot"/>        <!-- Project Image -->
                     </div>
                     <div>
-                        <div class="card-content">
+                        <div style="display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: center;
+                        gap: 1rem;">
                             <h6 class="card-description">
                                 "This is my fully responsive portfolio website project. It's built using
                                 React, Vite, and hosted on GitHub Pages. This project showcases my journey in software development,
@@ -114,7 +130,11 @@
                         <img src="" alt=""/>        <!-- Project Image -->
                     </div>
                     <div>
-                        <div class="card-content">
+                        <div style="display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: center;
+                        gap: 1rem;">
                             <h6 class="card-description">   Project Description    </h6>
                         </div>
                         <div class="card-button-container">
