@@ -3,8 +3,7 @@
     flex-flow: column;
     justify-content: center;
     align-content: center;
-    margin: 0 1rem 0 1rem;
-    padding: 0.5rem;
+    margin: 1rem 0 0 0;
 }
 
 .projects-title-container {
@@ -18,11 +17,28 @@
     margin: 1rem 1rem 0.5rem 1rem;
 }
 
+.directions-header {
+    margin: 0;
+    color: var(--text-color);
+    text-align: center;
+}
+
 .projects-sub-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    max-width: 100vw;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
     justify-content: space-evenly;
+    scrollbar-color: transparent transparent;
+    scroll-snap-type: x mandatory;
     margin: 0;
+    gap: 1rem;
+}
+
+.projects-sub-container > * {
+    flex: 0 0 auto;
 }
 
 .project-nav-buttons {
@@ -49,6 +65,7 @@
 }
 
 .project-button:hover {
+    transition: transform 0.2s ease, background-color 0.2s ease;
     background-color: var(--secondary-color);
     color: var(--text-color);
     transform: scale(1.08);
@@ -65,14 +82,24 @@
     border: 2px solid lightgrey;
     color: grey;
     cursor: not-allowed;
+    pointer-events: none;
+}
+
+.slide-box {
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
 }
 
 @media (max-width: 751px) {
-    .projects-container {
-        margin: 0.2rem;
-        padding: 0;
-    }
     .project-button {
         font-size: 1rem;
+    }
+    .projects-title-container h2 {
+        margin: 0 0 1rem 1rem;
     }
 }

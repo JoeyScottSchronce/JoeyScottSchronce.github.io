@@ -4,9 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    max-width: 90%;
-    margin: 0 1rem 0 1rem;
-    padding: 1rem 1rem 0 1rem;
+    max-width: 95%;
+    margin: 1rem;
+    padding: 0.4rem;
     border: 2px solid var(--background);
     border-radius: 15px;
     background-color: var(--background);
@@ -72,7 +72,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     gap: 1rem;
-    max-height: 420px;                          /*  <-- THIS CHANGES THE DESCRIPTION BOX HEIGHT */
+    max-height: 420px;                   /*  <-- DO NOT CHANGE, FONT SIZE CHANGES FILL THE BOX */
     overflow: auto;
 }
 
@@ -99,6 +99,7 @@
 }
 
 .card-button:hover {
+    transition: transform 0.2s ease, background-color 0.2s ease;
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     color: white;
@@ -151,7 +152,7 @@
         justify-content: flex-start;
         align-items: center;
         gap: 0;
-        max-height: 200px;
+        max-height: 160px;                      /*  <-- GOOD TO GO, FONT CHANGE FILLS THE BOX */
     }
     .large-content {
         max-height: 420px;
@@ -168,10 +169,6 @@
         margin: 0;
         padding: 0;
         gap: 1rem;
-    }
-    .card-container {
-        max-width: 95%;
-        margin: 0.5rem 0 0 0;
     }
     .card-image {
         min-width: 350px;
@@ -192,7 +189,10 @@
         font-size: 1.7rem;
     }
     .card-content {
-        max-height: 200px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0;
+        max-height: 260px;                      /*  <-- TABLET SIZES CAN BE MAXED OUT */
     }
     .large-content {
         max-height: 420px;
@@ -200,12 +200,7 @@
     }
 }
 
-@media (max-width: 426px) {
-    .card-container {
-        max-width: 95%;
-        margin: 0.5rem 0.1rem 0.1rem 0.1rem;
-        padding: 0 0.5rem 0 0.5rem;
-    }
+@media (max-width: 431px) {
     .card-image {
         min-width: 320px;
         height: 240px;
@@ -221,7 +216,7 @@
         font-size: 1.5rem;
     }
     .card-content {
-        max-height: 100px;
+        max-height: 180px;              /*  BALANCED SIZES */
     }
     .large-content {
         max-height: 420px;
@@ -230,11 +225,6 @@
 }
 
 @media (max-width: 376px) {
-    .card-container {
-        max-width: 95%;
-        margin: 0.5rem 0.1rem 0.1rem 0.1rem;
-        padding: 0 0.5rem 0 0.5rem;
-    }
     .card-image {
         min-width: 300px;
         height: 225px;
@@ -250,7 +240,7 @@
         font-size: 1.3rem;
     }
     .card-content {
-        max-height: 100px;
+        max-height: 120px;              /*  MUST STAY AT 120PX  */
     }
     .large-content {
         max-height: 420px;
@@ -259,11 +249,6 @@
 }
 
 @media (max-width: 321px) {
-    .card-container {
-        max-width: 95%;
-        margin: 0.5rem 0.1rem 0.1rem 0.1rem;
-        padding: 0 0.5rem 0 0.5rem;
-    }
     .card-image {
         min-width: 280px;
         height: 210px;
@@ -277,9 +262,6 @@
     }
     .large-title {
         font-size: 1.1rem;
-    }
-    .card-content {
-        max-height: 120px;
     }
     .large-content {
         max-height: 420px;
