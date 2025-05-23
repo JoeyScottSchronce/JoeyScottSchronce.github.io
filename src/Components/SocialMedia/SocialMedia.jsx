@@ -8,9 +8,9 @@ const socialMediaData = [
         icon: "/assets/icons/linkedin.svg",
     },
     {
-        platform: "Twitter",
+        platform: "X",
         url: "https://x.com/CodeQuestBlog",
-        icon: "/assets/icons/twitter.svg",
+        icon: "/assets/icons/X.svg",
     },
     {
         platform: "GitHub",

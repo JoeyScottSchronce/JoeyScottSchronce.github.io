@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="/assets/thumbnail.webp" />
     
     <link rel="stylesheet" href="/src/App.css" />
+    <link rel="stylesheet" href="/src/Components/SocialMedia/SocialMedia.css" />
     <link rel="stylesheet" href="/src/Components/HeroSection/HeroSection.css" />
     <link rel="stylesheet" href="/src/Components/AboutSection/AboutSection.css" />
     <link rel="stylesheet" href="/src/Components/ProjectSection/ProjectSection.css" />
@@ -16,8 +17,7 @@
 </head>
 <body style="display: flex;
 flex-direction: column;
-align-items: center;
-gap: 6rem;">
+align-items: center;">
 
 
 <div class="blobs">
@@ -31,6 +31,45 @@ gap: 6rem;">
     <div class="blobOne" ></div>
 </div>
 
+
+    <div style="position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0;">
+        <div class="social-media-links">
+            <a
+                    href="https://www.linkedin.com/in/joeyscottschronce/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                    aria-label='Visit my LinkedIn profile'
+            >
+                <img src="/assets/icons/linkedin.svg" class="social-icon" alt="LinkedIn Icon"/>
+            </a>
+            <a
+                    href="https://x.com/CodeQuestBlog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                    aria-label='Visit my X profile'
+            >
+                <img src="/assets/icons/X.svg" class="social-icon" alt="X Icon"/>
+            </a>
+            <a
+                    href="https://github.com/JoeyScottSchronce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                    aria-label='Visit my GitHub profile'
+            >
+                <img src="/assets/icons/github.svg" class="social-icon" alt="GitHub Icon"/>
+            </a>
+        </div>
+    </div>
+
+
 <main style="display: flex;
     flex-direction: column;
     min-height: 90vw;
@@ -43,6 +82,7 @@ gap: 6rem;">
     scroll-snap-type: y mandatory;
     margin: 0;
     gap: 6rem;">
+
 
     <section style="height: 100vh; scroll-snap-align: start;">
         <div class="container">
