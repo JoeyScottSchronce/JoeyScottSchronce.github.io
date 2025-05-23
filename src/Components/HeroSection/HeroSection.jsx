@@ -1,6 +1,7 @@
 import React from 'react';
 import "./HeroSection.css"
 import {Link} from "react-router-dom";
+import SocialMedia from "../SocialMedia/SocialMedia.jsx";
 
 function HeroSection() {
     return (
@@ -19,6 +20,7 @@ function HeroSection() {
                 <div className="third-sub" >
                     <Link to="/projects">Explore My Projects</Link>
                 </div>
+                <SocialMedia />
             </div>
         </div>
     )
