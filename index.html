@@ -15,7 +15,7 @@
   <meta name="twitter:description" content="A portfolio showcasing expertise in backend, frontend development, DevOps, and cloud technologies.">
   <meta name="twitter:image" content="https://joeyscottschronce.github.io/assets/summary_large_image.webp">
   <link rel="icon" type="image/png" href="/assets/thumbnail.webp" />
-  <link rel="stylesheet" href="/src/index.css" />
+  <link rel="preload" href="/src/index.css" />
   <title>Joey Scott Schronce Portfolio</title>
 </head>
 <body>
@@ -23,11 +23,11 @@
   <div style="text-align: center; padding: 30px; color: black">
     <h2>Redirecting to an alternate page.</h2>
     <h4> Enable JavaScript to see the full portfolio project.</h4>
-    <meta http-equiv="refresh" content="2; url=portfolio.html">
+    <meta http-equiv="refresh" content="0; url=portfolio.html">
   </div>
 </noscript>
 
 <div id="root"></div>
-<script type="module" src="/src/main.jsx"></script>
+<script defer type="module" src="/src/main.jsx"></script>
 </body>
 </html>
