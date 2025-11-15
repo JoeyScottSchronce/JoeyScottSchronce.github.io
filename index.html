@@ -1,33 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" initial-scale="1.0" maximum-scale="1.0" user-scalable="no"/>
-  <meta name="author" content="Joey Scott Schronce">
-  <meta name="description" content="Joey Scott Schronce's portfolio showcasing expertise in backend and frontend software development, DevOps, cloud-native technologies, and test-driven development.">
-  <meta name="keywords" content="Software Developer, Software Engineer, Backend Development, Frontend Development, Python, Flask, Django, JavaScript, React, Vite, DevOps, CI/CD, Kubernetes, Docker, IBM Cloud, Agile, Scrum, Microservices, MongoDB">
-  <meta property="og:title" content="Joey Scott Schronce's Portfolio as a Software Developer">
-  <meta property="og:description" content="Explore Joey Scott Schronce's portfolio highlighting projects in software engineering, DevOps, cloud-native technologies, and more.">
-  <meta property="og:image" content="https://joeyscottschronce.github.io/assets/summary_large_image.webp">
-  <meta property="og:url" content="https://joeyscottschronce.github.io/">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Joey Scott Schronce's Portfolio as a Software Developer">
-  <meta name="twitter:description" content="A portfolio showcasing expertise in backend, frontend development, DevOps, and cloud technologies.">
-  <meta name="twitter:image" content="https://joeyscottschronce.github.io/assets/summary_large_image.webp">
-  <link rel="icon" type="image/png" href="/assets/thumbnail.webp" />
-  <link rel="stylesheet" href="/src/index.css" />
-  <title>Joey Scott Schronce Portfolio</title>
-</head>
-<body>
-<noscript>
-  <div style="text-align: center; padding: 30px; color: black">
-    <h2>Redirecting to an alternate page.</h2>
-    <h4> Enable JavaScript to see the full portfolio project.</h4>
-    <meta http-equiv="refresh" content="0; url=portfolio.html">
-  </div>
-</noscript>
 
-<div id="root"></div>
-<script defer type="module" src="/src/main.jsx"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joey Scott Schronce">
+    <meta name="description" content="Joey Scott Schronce's portfolio showcasing expertise in backend and frontend software development, DevOps, cloud-native technologies, and test-driven development.">
+    <meta name="keywords" content="Software Developer, Software Engineer, Backend Development, Frontend Development, Python, Flask, Django, JavaScript, React, Vite, DevOps, CI/CD, Kubernetes, Docker, IBM Cloud, Agile, Scrum, Microservices, MongoDB">
+    <meta property="og:title" content="Joey Scott Schronce's Portfolio as a Software Developer">
+    <meta property="og:description" content="Explore Joey Scott Schronce's portfolio highlighting projects in software engineering, DevOps, cloud-native technologies, and more.">
+    <meta property="og:image" content="https://joeyscottschronce.github.io/assets/summary_large_image.webp">
+    <meta property="og:url" content="https://joeyscottschronce.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Joey Scott Schronce's Portfolio as a Software Developer">
+    <meta name="twitter:description" content="A portfolio showcasing expertise in backend, frontend development, DevOps, and cloud technologies.">
+    <meta name="twitter:image" content="https://joeyscottschronce.github.io/assets/summary_large_image.webp">
+
+
+    <link rel="icon" type="image/png" href="/assets/thumbnail.webp" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="stylesheet" href="/src/App.css" />
+    <link rel="stylesheet" href="/src/Components/SocialMedia/SocialMedia.css" />
+    <link rel="stylesheet" href="/src/Components/HeroSection/HeroSection.css" />
+    <link rel="stylesheet" href="/src/Components/AboutSection/AboutSection.css" />
+    <link rel="stylesheet" href="/src/Components/ProjectSection/ProjectSection.css" />
+    <link rel="stylesheet" href="/src/Components/ProjectSection/ProjectCard.css" />
+    <link rel="stylesheet" href="/src/Components/Credentials/Certificates/Certificates.css" />
+
+
+    <title>Joey Scott Schronce Portfolio</title>
+</head>
+<body style="display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+scroll-behavior: smooth;
+height: 100vh;">
+
+
+<div class="blobs">
+    <div class="blobTwo"></div>
+    <div class="blobTwo"></div>
+    <div class="blobTwo"></div>
+    <div class="blobTwo"></div>
+    <div class="blobOne" ></div>
+    <div class="blobOne" ></div>
+    <div class="blobOne" ></div>
+    <div class="blobOne" ></div>
+</div>
+
+
+<div style="position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0;">
+    <div class="social-media-links">
+        <a
+                href="https://www.linkedin.com/in/joeyscottschronce/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label='Visit my LinkedIn profile'
+        >
+            <img src="/assets/icons/linkedin.svg" class="social-icon" alt="LinkedIn Icon"/>
+        </a>
+        <a
+                href="https://x.com/CodeQuestBlog"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label='Visit my X profile'
+        >
+            <img src="/assets/icons/X.svg" class="social-icon" alt="X Icon"/>
+        </a>
+        <a
+                href="https://github.com/JoeyScottSchronce"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label='Visit my GitHub profile'
+        >
+            <img src="/assets/icons/github.svg" class="social-icon" alt="GitHub Icon"/>
+        </a>
+    </div>
+</div>
+
+
+<main style="display: flex;
+    flex-direction: column;
+    height: 90%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    justify-content: space-evenly;
+    scrollbar-color: transparent transparent;
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    gap: 60rem;">
+
+
+    <section style="height: 100vh; scroll-snap-align: start;">
+        <div class="container">
+            <div class="sub-container">
+                <div class="first-sub">
+                    <h1 class="intro1">Welcome to my Portfolio!</h1>
+                </div>
+                <div class="second-sub">
+                    <div class="intro2" >As a Software Engineer, my expertise is in building reliable and
+                        efficient backend systems, APIs, and innovative software solutions.
+                    </div>
+                </div>
+            </div>
+            <h6 style="color: var(--text-color);">Swipe up to see more</h6>
+        </div>
+    </section>
+
+
+    <section style="height: 100vh; scroll-snap-align: start;">
+        <div>
+            <div class="about-container">
+                <h2>Joey Scott Schronce</h2>
+                <div class="about-main-sub">
+                    <img class="profile" src="/assets/about/Profile.webp" alt="image of Joey Scott Schronce" />
+                    <h6 class="main-p">
+                        I’m a dedicated and detail-oriented software developer with a strong foundation in
+                        web development and software engineering. I have experience in building scalable backend
+                        applications using Python with the Flask and Django frameworks, as well as frontend
+                        development with JavaScript using the React and Vite frameworks. I am proficient in
+                        creating and managing CI/CD pipelines using Tekton and deploying containerized
+                        applications to IBM Cloud Container Registry, using tools like Docker, Kubernetes,
+                        and OpenShift. I’ve also been taught how to use version control with Git/GitHub,
+                        cloud-native technologies, and NoSQL databases such as MongoDB. I have a solid
+                        understanding of Test-Driven and Behavior-Driven Development, along with the DevOps,
+                        Agile, and Scrum methodologies.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Next Section Here -->
+    <section style="height: 100vh; scroll-snap-align: start;">
+        <div class="certificates">
+            <h1>Certificates</h1>
+            <div style="max-height: 400px;
+            overflow: auto;
+            width: 90%;
+            min-height: 480px;">
+                <div class="certificates-sub-container">
+
+                    <div class="certificate">
+                        <a href="https://www.credly.com/badges/a8d2d639-6b18-4af9-a836-5f083b442a5c/public_url" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/certificates/PC_DevOps.webp" alt="DevOps Certificate" />
+                        </a>
+                    </div>
+
+                    <div class="certificate">
+                        <a href="https://www.credly.com/badges/e806232e-be45-478c-906f-4c89aba8f052/public_url" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/certificates/PC_backend.webp" alt="Backend Certificate" />
+                        </a>
+                    </div>
+
+                    <div class="certificate">
+                        <a href="https://www.credly.com/badges/f6c0efc7-667f-4dc1-8ad0-163eba99ee71/public_url" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/certificates/PC_frontend.webp" alt="Frontend Certificate" />
+                        </a>
+                    </div>
+
+                    <div class="certificate">
+                        <a href="https://www.credly.com/badges/d147fa15-33f1-46de-8216-91e822c6a449/public_url" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/certificates/PC_soft_skills.webp" alt="Soft Skills Certificate" />
+                        </a>
+                    </div>
+
+                    <div class="certificate">
+                        <a href="https://coursera.org/share/a6df2420007281ce145c560905b99d18" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/certificates/generative_AI.webp" alt="Generative AI Certificate" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section style="height: 100vh; scroll-snap-align: start;">
+        <div class="projects-container">
+            <div class="projects-title-container">
+                <h2 style="color: var(--text-color); margin: 0 2rem 0 2rem;">Projects</h2>
+            </div>
+
+            <h6 style="color:var(--text-color);
+            text-align: center;
+            margin: 0;">
+                Swipe right to see more
+            </h6>
+
+            <div class="projects-sub-container">
+
+
+                <!-- Each Project Card -->
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Portfolio Project</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/portfolio.webp" alt="Portfolio Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        This is my fully responsive portfolio website project. It's built using
+                                        React, Vite, and hosted on GitHub Pages. This project showcases my journey in software development,
+                                        applying all the skills I've been honing throughout the IBM Frontend Development Professional
+                                        Certificate and beyond. Every component you interact with on this website is crafted from scratch,
+                                        using React and CSS to bring my design to life. From structuring the layouts to refining the user
+                                        experience, this portfolio website reflects my dedication to continuing to practice everything
+                                        I've learned and to continue to build responsive and functional websites, apps, and other
+                                        programming projects.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://joeyscottschronce.github.io/"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+
+                                    <a href="https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io"><button class="card-button">See the Website</button></a>  <!-- Project Website Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">DevOps & Software Engineering Capstone</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/DevOps.webp" alt="DevOps Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I built an Accounts microservice to manage customer data for an e-commerce platform,
+                                        applying Test-Driven and Behavior-Driven Development. Using Flask and a Tekton pipeline, I
+                                        automated workflows while structuring development via a Kanban board and milestone-based sprints.
+                                        The service features a PostgreSQL database with RESTful APIs for CRUD and list operations,
+                                        achieving 95% code coverage using Factory Boy and Unittest. Following the Model-View-Controller
+                                        pattern, I ensured a clear separation of concerns between business logic and routing. The project
+                                        includes a Dockerfile, CI/CD pipeline, and was deployed to IBM Registry, demonstrating my ability
+                                        to develop scalable, well-tested microservices.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/devops-capstone-project"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Frontend Development Capstone Project</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/frontend.webp" alt="Frontend Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I created a desktop-only medical appointment booking website called Stay Healthy, to provide
+                                        access to medical care in remote areas. This desktop website is designed to allow patients
+                                        to schedule appointments with healthcare providers easily. The platform enables users
+                                        to view available slots, select providers, manage their appointments through their online
+                                        accounts, and give feedback to the doctors about their care. Built using the React
+                                        framework, this project initially relied on a pre-existing back end, which I later
+                                        restructured using Vite. Throughout the development process, I've gained hands-on experience
+                                        with Linux commands, JSX, and React. I've honed my skills in HTML, CSS
+                                        with Bootstrap, Docker, using Git & GitHub, and creating UI/UX designs, both with Figma
+                                        in theory and in practice.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/frontend_developer_capstone_project"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+
+                                    <a href="https://joeyscottschronce.github.io/frontend_developer_capstone_project/"><button class="card-button">See the Website</button></a>  <!-- Project Website Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Backend Development Capstone Project</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/backend.webp" alt="Backend Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I created a Django-based web app designed to serve as the main website for a
+                                        band that integrates with the Pictures and Songs services from the two other IBM Backend
+                                        Capstone Projects. This app features dynamic web pages, including a home page, a songs
+                                        page listing all song titles, and a photos page displaying images from past events. It
+                                        incorporates user authentication, allowing users to log in and access personalized features,
+                                        while admins have the ability to create, edit, and delete concerts. The project
+                                        involves data modeling using Django models and migrations to establish tables and relationships,
+                                        along with the implementation of business logic through controllers that manage interactions
+                                        between data models and templates. Finally, this app was then deployed on IBM Kubernetes
+                                        Services during the final phase of the Capstone Project.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/Back-end-Development-Capstone"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Songs Project for Backend Capstone</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/Songs.webp" alt="Songs Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I developed a Flask-based web service for retrieving song data, integrating MongoDB for efficient
+                                        storage and retrieval. Deployed on IBM Code Engine using IBM Cloud, the service provides a RESTful API
+                                        and includes Python unit tests to ensure reliability. Through this capstone, I gained insights into
+                                        NoSQL databases, datastore architectures, and MongoDB’s features. I also performed CRUD operations via
+                                        the MongoDB shell, connected Flask with MongoDB using Python SDKs, and built a scalable web service.
+                                        This project strengthened my understanding of NoSQL databases and their role in robust application
+                                        development.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/Back-End-Development-Songs"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Pictures Project for Backend Capstone</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/Pictures.webp" alt="Pictures Project Screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I built a Flask-based service to retrieve concert event images from cloud storage, ensuring
+                                        reliability with Python unit tests. Using a GitHub template, I developed RESTful APIs for handling
+                                        picture URLs, implemented robust error handling, and integrated external APIs within Flask. The
+                                        service was successfully deployed to IBM Code Engine. Through this project, I gained hands-on
+                                        experience in cloud storage retrieval, API development, and Flask-based web services, strengthening
+                                        my skills in backend development and cloud deployment.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/Back-End-Development-Pictures"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-box" >
+                    <div class="card-container">
+                        <h3 class="card-title">Test-driven & Behavior-driven Development</h3>
+                        <div class="card-content-container">
+                            <div class="card-image" >
+                                <img src="/assets/projects/TDD_BDD.webp" alt="TDD and BDD Project screenshot"/>        <!-- Project Image -->
+                            </div>
+                            <div>
+                                <div class="card-content">
+                                    <h6 class="card-description">
+                                        I developed a microservice for managing an eCommerce product catalog, applying Test-Driven
+                                        and Behavior-Driven Development to ensure reliability. The RESTful API supports full CRUD functionality
+                                        and advanced product search by category, availability, and name. BDD-based testing validates the
+                                        administrative UI using Behave, with automated background data loading for scenario execution. I
+                                        implemented unit tests for the Product model, built a well-tested API, and ensured seamless integration
+                                        within the system. This project strengthened my technical skills in scalable, testable microservice
+                                        development.
+                                    </h6>
+                                </div>
+                                <div class="card-button-container">
+
+                                    <a href="https://github.com/JoeyScottSchronce/bdd_and_tdd_final_project"><button class="card-button">Project Repository</button></a>  <!-- Project Repository Link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>   <!-- End of Projects Section-->
+
+    <section style="height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    scroll-snap-align: start;">
+        <div style="display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 0 10rem 0;
+        padding: 0 0 10rem 0;">
+            <h1 style="color: var(--text-color)">Thanks for visiting my portfolio!</h1>
+        </div>
+    </section>
+
+</main>
 </body>
 </html>
