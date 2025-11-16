@@ -11,6 +11,8 @@
     --blobTwo: skyblue;
     --background: #222222;
     --text-color: #fffefe;
+    /* --background: #fffefe;
+    --text-color: #222222; */
 }
 
 body {
@@ -18,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: var(--background);
     font-family: Roboto, sans-serif;
 }
 
@@ -38,8 +40,8 @@ a {
 
 .blobOne {
     position: absolute;
-    width: 13rem;
-    height: 13rem;
+    width: 7rem;
+    height: 7rem;
     background: radial-gradient(circle, var(--primary-color) 10%, var(--blobOne) 20%);
     border-radius: 50% 40% 60% 60%;
     filter: blur(100px);
@@ -52,8 +54,8 @@ a {
 
 .blobTwo {
     position: absolute;
-    width: 13rem;
-    height: 13rem;
+    width: 7rem;
+    height: 7rem;
     background: radial-gradient(circle, var(--secondary-color) 10%, var(--blobTwo) 20%);
     border-radius: 50% 40% 60% 60%;
     filter: blur(100px);
@@ -66,26 +68,26 @@ a {
 
 @media (max-width: 768px) {
     .blobOne {
-        width: 10rem;
-        height: 10rem;
+        width: 5rem;
+        height: 5rem;
         filter: blur(75px);
     }
     .blobTwo {
-        width: 10rem;
-        height: 10rem;
+        width: 5rem;
+        height: 5rem;
         filter: blur(75px);
     }
 }
 
 @media (max-width: 537px) {
     .blobOne {
-        width: 8rem;
-        height: 8rem;
+        width: 3rem;
+        height: 3rem;
         filter: blur(50px);
     }
     .blobTwo {
-        width: 8rem;
-        height: 8rem;
+        width: 3rem;
+        height: 3rem;
         filter: blur(50px);
     }
 }
@@ -301,9 +303,6 @@ a {
 
 
 @media (max-width: 1024px) {
-    .profile {
-
-    }
     .main-p {
         text-align: center;
         font-size: 1rem;
@@ -314,8 +313,6 @@ a {
 }
 
 @media (max-width: 768px) {
-    .profile {
-    }
     .main-p {
         text-align: center;
         font-size: 0.9rem;
