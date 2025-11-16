@@ -24,6 +24,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+section {
+    margin-top: 2rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -155,7 +159,7 @@ a {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin: 8rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
     padding: 2rem;
 }
 
