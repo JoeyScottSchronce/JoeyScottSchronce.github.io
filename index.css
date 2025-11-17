@@ -468,15 +468,6 @@ a {
     pointer-events: none;
 }
 
-.slide-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    max-width: 100%;
-}
-
 @media (max-width: 751px) {
     .project-button {
         font-size: 1rem;
@@ -495,17 +486,14 @@ a {
     max-width: 95%;
     margin: 1rem;
     padding: 0.4rem;
-    border: 2px solid var(--background);
     border-radius: 15px;
-    background-color: var(--background);
-    box-shadow: 0 0 5px 0 grey;
 }
 
 .card-title {
     text-align: center;
     color: var(--text-color);
     font-size: 1.7rem;
-    margin: 0;
+    margin-top: 2rem;
 }
 
 .large-title {
