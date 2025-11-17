@@ -348,10 +348,8 @@ a {
 }
 
 .certificates-container {
-    max-height: 400px;
     overflow: auto;
     width: 90%;
-    min-height: 480px;              /*   <--   good enough for all screen sizes   */
 }
 
 .certificates-sub-container {
@@ -367,13 +365,30 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 300px;
     color: var(--text-color);
 }
 
 .certificate img {
-    width: 300px;
+    width: 600px;
     border-radius: 10px;
+}
+
+@media (max-width: 1236px) {
+    .certificate img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1036px) {
+    .certificate img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 769px) {
+    .certificate img {
+        width: 300px;
+    }
 }
 
 /* ################################################### */
