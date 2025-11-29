@@ -85,6 +85,8 @@ a {
     padding: 10px 10px 7px 10px;
     background: white;
     border-radius: 50%;
+    width: 25px;
+    height: 25px;
 }
 
 .rtn_top img {
