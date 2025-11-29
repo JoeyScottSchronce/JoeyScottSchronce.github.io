@@ -72,6 +72,32 @@ a {
     }
 }
 
+
+/* ################################################### */
+                /* RETURN TO TOP */
+/* ################################################### */
+
+.rtn_top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 1.5rem 1.5rem 0;
+    padding: 10px 10px 7px 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.rtn_top img {
+    width: 25px;
+    height: 25px;
+}
+
+.rtn_top:hover {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    transform: scale(1.2);
+}
+
+
 /* ################################################### */
                 /* NAVIGATION BAR */
 /* ################################################### */
