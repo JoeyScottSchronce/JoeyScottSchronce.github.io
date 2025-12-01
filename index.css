@@ -99,6 +99,13 @@ a {
     transform: scale(1.2);
 }
 
+@media (max-width: 751px) {
+    .rtn_top:hover {
+    transition: transform 0.0s ease, background-color 0.0s ease;
+    transform: scale(1.0);
+    }
+}
+
 
 /* ################################################### */
                 /* NAVIGATION BAR */
