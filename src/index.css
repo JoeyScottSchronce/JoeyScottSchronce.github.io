@@ -539,6 +539,7 @@ nav::after {
 }
 
 .card-button {
+    display: inline-flex;
     background-color: var(--background);
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
@@ -549,6 +550,8 @@ nav::after {
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .card-button:hover {
