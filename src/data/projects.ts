@@ -9,6 +9,42 @@ export type Project = {
 }
 
 export const projects: Project[] = [
+  // {
+  //   title: 'Place Holder',
+  //   imageSrc: '/assets/projects/placeholder.webp',
+  //   imageAlt: 'Placeholder',
+  //   description:
+  //     "This is a placeholder description.",
+  //   actions: [
+  //     { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/placeholder' },
+  //     { label: 'See the Website', href: 'https://joeyscottschronce.github.io/placeholer' },
+
+  //   ],
+  // },
+
+  {
+    title: 'BashMaster AI',
+    imageSrc: '/assets/projects/BashMasterAI.webp',
+    imageAlt: 'BashMaster AI',
+    description:
+      "BashMaster AI is an interactive Bash scripting training web application that showcasing full-stack development skills. The site presents a terminal-inspired UI with a command-line aesthetic, the use of monospace fonts, dark-mode styling, and tailwind CSS animations to mimic a real shell environment. As a training tool, it incorporates a command selection interface, real-time feedback validation logic, and an AI backend, integrating the Goggle Gemini language model to evaluate or guide user input via API. The project showcases skills in UI/UX design, TypeScript-based frameworks React with Vite. This piece demonstrates both creative design sensibility and technical depth in building developer-focused tooling.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/bash-scripting-trainer' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/bash-scripting-trainer' },
+
+    ],
+  },
+  {
+    title: 'Portfolio Project',
+    imageSrc: '/assets/projects/portfolio.webp',
+    imageAlt: 'Portfolio Project Screenshot',
+    description:
+      "This is my portfolio website project, built using vite and react, using HTML and CSS as a template. This project showcases my journey in software development, applying the web development skills I've been honing throughout the IBM Frontend Development Professional Certificate and beyond. From structuring the layout to refining the user experience, this portfolio website reflects my dedication to continuing to practice everything I've learned and to continue to build responsive and functional websites, apps, and other programming projects.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/' },
+    ],
+  },
   {
     title: 'Learn Go with Test-Driven Development',
     imageSrc: '/assets/projects/go_with_tdd.webp',
@@ -28,17 +64,6 @@ export const projects: Project[] = [
     actions: [
       { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/frontend_developer_capstone_project' },
       { label: 'See the Website', href: 'https://joeyscottschronce.github.io/frontend_developer_capstone_project/' },
-    ],
-  },
-  {
-    title: 'Portfolio Project',
-    imageSrc: '/assets/projects/portfolio.webp',
-    imageAlt: 'Portfolio Project Screenshot',
-    description:
-      "This is my portfolio website project, built using only HTML and CSS. This project showcases my journey in software development, applying the web development skills I've been honing throughout the IBM Frontend Development Professional Certificate and beyond. From structuring the layout to refining the user experience, this portfolio website reflects my dedication to continuing to practice everything I've learned and to continue to build responsive and functional websites, apps, and other programming projects.",
-    actions: [
-      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io' },
-      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/' },
     ],
   },
   {
