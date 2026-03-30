@@ -29,4 +29,22 @@ export const socialLinks = [
     alt: 'LeetCode Icon',
     ariaLabel: 'Visit my LeetCode profile',
   },
+  {
+    href: 'https://www.hackerrank.com/profile/OnceBitten',
+    iconSrc: '/assets/icons/hackerrank.webp',
+    alt: 'HackerRank Icon',
+    ariaLabel: 'Visit my HackerRank profile',
+  },
+  {
+    href: 'https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9',
+    iconSrc: '/assets/icons/codesignal.webp',
+    alt: 'CodeSignal Icon',
+    ariaLabel: 'Visit my CodeSignal profile',
+  },
+  // {
+  //   href: 'placeholder',
+  //   iconSrc: '/assets/icons/placeholer.webp',
+  //   alt: 'placeholder Icon',
+  //   ariaLabel: 'Visit my placeholder profile',
+  // },
 ] as const

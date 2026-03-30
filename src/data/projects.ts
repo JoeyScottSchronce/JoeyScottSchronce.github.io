@@ -18,10 +18,55 @@ export const projects: Project[] = [
   //   actions: [
   //     { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/placeholder' },
   //     { label: 'See the Website', href: 'https://joeyscottschronce.github.io/placeholer' },
-
   //   ],
   // },
+  {
+    title: 'AnkiDeck - Flashcard Deck Generator',
+    imageSrc: '/assets/projects/ankideck.webp',
+    imageAlt: 'Placeholder',
+    description:
+      "AnkiDeck is a full-stack AI-powered flashcard generator that allows users to create and export Anki-compatible .apkg decks directly from the app or browser. The frontend is a React + TypeScript SPA built with Vite, deployed to GitHub Pages, and configured as a PWA with Android support via Trusted Web Activity. The backend is written in Go, integrating Google's Gemini AI for card generation and text-only-apkgwriter for native Anki file export. It is deployed on Google Cloud Run with a Cloud Build CI/CD pipeline and secrets managed through Google Secret Manager. Additional highlights include JWT authentication, Stripe billing integration, sanitized API error handling, Docker support across both services, and a clean CORS configuration bridging the SPA and API. The project reflects strong full-stack fundamentals and production-ready deployment practices across the entire application lifecycle.",
+    actions: [
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/ankideck' },
 
+    ],
+  },
+
+  {
+    title: 'Text-only apkg Writer',
+    imageSrc: '/assets/projects/textonlyapkgwriter.webp',
+    imageAlt: 'Text-only .apkg Writer',
+    description:
+      "The text-only apkg Writer is a lightweight Go library that programmatically generates Anki .apkg flashcard packages (ZIP archives containing a SQLite database) exposing a minimal API of just a Card struct and a single WriteApkg function that writes a complete deck to any io.Writer. The project demonstrates strong Go fundamentals including idiomatic package design, interface-driven I/O, and deliberate separation of concerns, with zero dependencies on HTTP servers or UI layers. Built with Go modules, semantic versioning, and a full test suite, the library was architected with extensibility in mind. Version one is intentionally text-only, but the design accommodates future media support without breaking existing callers.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/placeholder' },
+
+    ],
+  },
+  {
+    title: 'Go Concurrency Lab',
+    imageSrc: '/assets/projects/goconcurrencylab.webp',
+    imageAlt: 'Go Concurrency Lab',
+    description:
+      "Go Concurrency Lab is an AI-powered coding challenge platform that dynamically generates Go concurrency exercises. It covers goroutines, channels, select, sync, and context using the Google Gemini API. The frontend is built with React, TypeScript, and Vite, while the app is containerized via Docker and automatically deployed to GitHub Pages through a GitHub Actions CI/CD pipeline. API keys are injected securely at build time and never committed to source. The project demonstrates practical skills in frontend development, LLM API integration, containerization, CI/CD automation, and secure configuration management.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/go-concurrency-lab' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/go-concurrency-lab/' },
+
+    ],
+  },
+  {
+    title: 'Python Training Grounds',
+    imageSrc: '/assets/projects/pythontraininggrounds.webp',
+    imageAlt: 'Python Training Grounds',
+    description:
+      "Python Training Grounds is an AI-powered interactive platform that helps developers of all skill levels advance their Python abilities through dynamically generated coding challenges. It leverages the Google Gemini API to produce unique, topic-specific exercises on demand. Built with React 19 and TypeScript, the project demonstrates strong modern frontend proficiency, including component architecture, type safety, and state management, while Tailwind CSS delivers a sleek, terminal-inspired UI and the Motion library adds polished animations. The project also reflects solid DevOps awareness through its Dockerfile and GitHub Actions CI/CD configuration, showcasing familiarity with containerization and automated deployment. Altogether, it highlights the developer's ability to integrate third-party AI APIs, architect a full-featured SPA, and deliver a production-ready educational tool from the ground up.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/python-training-grounds' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/python-training-grounds/' },
+
+    ],
+  },
   {
     title: 'BashMaster AI',
     imageSrc: '/assets/projects/BashMasterAI.webp',
