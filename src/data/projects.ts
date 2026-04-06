@@ -13,8 +13,16 @@ export const projects: Project[] = [
   {
     title: 'Ankiugen - Flashcard Deck Generator',
     images: [
-      { src: '/assets/projects/ankideck.webp', alt: 'Ankiugen project screenshot' },
-      { src: '/assets/projects/ankideck-2.webp', alt: 'Ankiugen project screenshot (2)' },
+      { src: '/assets/projects/Ankiugen(1).webp', alt: 'Ankiugen project screenshot (1)' },
+      { src: '/assets/projects/Ankiugen(2).webp', alt: 'Ankiugen project screenshot (2)' },
+      { src: '/assets/projects/Ankiugen(3).webp', alt: 'Ankiugen project screenshot (3)' },
+      { src: '/assets/projects/Ankiugen(4).webp', alt: 'Ankiugen project screenshot (4)' },
+      { src: '/assets/projects/Ankiugen(5).webp', alt: 'Ankiugen project screenshot (5)' },
+      { src: '/assets/projects/Ankiugen(6).webp', alt: 'Ankiugen project screenshot (6)' },
+      { src: '/assets/projects/Ankiugen(7).webp', alt: 'Ankiugen project screenshot (7)' },
+      { src: '/assets/projects/Ankiugen(8).webp', alt: 'Ankiugen project screenshot (8)' },
+      // { src: '/assets/projects/Ankiugen().webp', alt: 'Ankiugen project screenshot ()' },
+
     ],
     description:
       "Ankiugen is a full-stack AI-powered flashcard generator that allows users to create and export Anki-compatible .apkg decks directly from the app or browser. The frontend is a React + TypeScript SPA built with Vite, deployed to Cloudflare, and configured as a PWA with Android support via Trusted Web Activity. The backend is written in Go, integrating Google's Gemini AI for card generation and text-only-apkgwriter for native Anki file export. The backend is deployed on Google Cloud Run with a Cloud Build CI/CD pipeline and secrets managed through Google Secret Manager. Additional highlights include JWT authentication, Stripe billing integration, sanitized API error handling, Docker support across both services, and a clean CORS configuration bridging the SPA and API. The project reflects strong full-stack fundamentals and production-ready deployment practices across the entire application lifecycle.",
@@ -73,11 +81,11 @@ export const projects: Project[] = [
   {
     title: 'Portfolio Project',
     images: [
-      { src: '/assets/projects/portfolio.webp', alt: 'Portfolio Project Screenshot' },
-      { src: '/assets/projects/portfolio-2.webp', alt: 'Portfolio Project Screenshot (2)' },
+      { src: '/assets/projects/portfolio(1).webp', alt: 'Portfolio Project Screenshot (1)' },
+      { src: '/assets/projects/portfolio(2).webp', alt: 'Portfolio Project Screenshot (2)' },
     ],
     description:
-      "This is my portfolio website project, built using vite and react, using HTML and CSS as a template. This project showcases my journey in software development, applying the web development skills I've been honing through ongoing study and practice. From structuring the layout to refining the user experience, this portfolio website reflects my dedication to continuing to practice everything I've learned and to continue to build responsive and functional websites, apps, and other programming projects.",
+      "This portfolio site is a static single-page app rebuilt with a modern stack: React 19, TypeScript (strict typing across components and data), and Vite 6 for fast dev and production builds. Styling uses Tailwind CSS v4 with the official Vite plugin, custom theme tokens in CSS, and a responsive layout—including a float-wrapped hero and project cards with an image carousel. Tooling includes ESLint 9 with TypeScript-aware rules and npm scripts for lint, typecheck, and build. The site is hosted on GitHub Pages and reflects ongoing practice in accessible markup, performance-minded assets, and maintainable project structure as I continue to ship polished front-end work.",
     actions: [
       { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io' },
       { label: 'See the Website', href: 'https://joeyscottschronce.github.io/' },
