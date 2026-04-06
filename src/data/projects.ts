@@ -26,9 +26,21 @@ export const projects: Project[] = [
     ],
     description:
       "Ankiugen is a full-stack AI-powered flashcard generator that allows users to create and export Anki-compatible .apkg decks directly from the app or browser. The frontend is a React + TypeScript SPA built with Vite, deployed to Cloudflare, and configured as a PWA with Android support via Trusted Web Activity. The backend is written in Go, integrating Google's Gemini AI for card generation and text-only-apkgwriter for native Anki file export. The backend is deployed on Google Cloud Run with a Cloud Build CI/CD pipeline and secrets managed through Google Secret Manager. Additional highlights include JWT authentication, Stripe billing integration, sanitized API error handling, Docker support across both services, and a clean CORS configuration bridging the SPA and API. The project reflects strong full-stack fundamentals and production-ready deployment practices across the entire application lifecycle.",
-    actions: [{ label: 'See the Website', href: 'https://joeyscottschronce.github.io/ankideck' }],
+    actions: [{ label: 'See the Website', href: 'https://ankiugen.com' }],
   },
-
+  {
+    title: 'Portfolio Project',
+    images: [
+      { src: '/assets/projects/portfolio(2).webp', alt: 'Portfolio Project Screenshot (2)' },
+      { src: '/assets/projects/portfolio(1).webp', alt: 'Portfolio Project Screenshot (1)' },
+    ],
+    description:
+      "This portfolio site is a static single-page app rebuilt with a modern stack: React 19, TypeScript (strict typing across components and data), and Vite 6 for fast dev and production builds. Styling uses Tailwind CSS v4 with the official Vite plugin, custom theme tokens in CSS, and a responsive layout—including a float-wrapped hero and project cards with an image carousel. Tooling includes ESLint 9 with TypeScript-aware rules and npm scripts for lint, typecheck, and build. The site is hosted on GitHub Pages and reflects ongoing practice in accessible markup, performance-minded assets, and maintainable project structure as I continue to ship polished front-end work.",
+    actions: [
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/' },
+    ],
+  },
   {
     title: 'Text-only apkg Writer',
     images: [
@@ -40,16 +52,16 @@ export const projects: Project[] = [
     actions: [{ label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/placeholder' }],
   },
   {
-    title: 'Go Concurrency Lab',
+    title: 'BashMaster AI',
     images: [
-      { src: '/assets/projects/goconcurrencylab.webp', alt: 'Go Concurrency Lab' },
-      { src: '/assets/projects/goconcurrencylab-2.webp', alt: 'Go Concurrency Lab (2)' },
+      { src: '/assets/projects/BashMasterAI.webp', alt: 'BashMaster AI' },
+      { src: '/assets/projects/BashMasterAI-2.webp', alt: 'BashMaster AI (2)' },
     ],
     description:
-      "Go Concurrency Lab is an AI-powered coding challenge platform that dynamically generates Go concurrency exercises. It covers goroutines, channels, select, sync, and context using the Google Gemini API. The frontend is built with React, TypeScript, and Vite, while the app is containerized via Docker and automatically deployed to GitHub Pages through a GitHub Actions CI/CD pipeline. API keys are injected securely at build time and never committed to source. The project demonstrates practical skills in frontend development, LLM API integration, containerization, CI/CD automation, and secure configuration management.",
+      "BashMaster AI is an interactive Bash scripting trainer web application that showcases full-stack development skills. The site presents a terminal-inspired UI with a command-line aesthetic, the use of monospace fonts, dark-mode styling, and tailwind CSS animations to mimic a real shell environment. As a training tool, it incorporates a command selection interface, real-time feedback validation logic, and integrates with the Goggle Gemini language model to evaluate or guide user input via API. The project showcases skills in UI/UX design, TypeScript-based frameworks React with Vite. This piece demonstrates both creative design sensibility and technical depth in building developer-focused tooling.",
     actions: [
-      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/go-concurrency-lab' },
-      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/go-concurrency-lab/' },
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/bash-scripting-trainer' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/bash-scripting-trainer' },
     ],
   },
   {
@@ -66,29 +78,16 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: 'BashMaster AI',
+    title: 'Go Concurrency Lab',
     images: [
-      { src: '/assets/projects/BashMasterAI.webp', alt: 'BashMaster AI' },
-      { src: '/assets/projects/BashMasterAI-2.webp', alt: 'BashMaster AI (2)' },
+      { src: '/assets/projects/goconcurrencylab.webp', alt: 'Go Concurrency Lab' },
+      { src: '/assets/projects/goconcurrencylab-2.webp', alt: 'Go Concurrency Lab (2)' },
     ],
     description:
-      "BashMaster AI is an interactive Bash scripting trainer web application that showcases full-stack development skills. The site presents a terminal-inspired UI with a command-line aesthetic, the use of monospace fonts, dark-mode styling, and tailwind CSS animations to mimic a real shell environment. As a training tool, it incorporates a command selection interface, real-time feedback validation logic, and integrates with the Goggle Gemini language model to evaluate or guide user input via API. The project showcases skills in UI/UX design, TypeScript-based frameworks React with Vite. This piece demonstrates both creative design sensibility and technical depth in building developer-focused tooling.",
+      "Go Concurrency Lab is an AI-powered coding challenge platform that dynamically generates Go concurrency exercises. It covers goroutines, channels, select, sync, and context using the Google Gemini API. The frontend is built with React, TypeScript, and Vite, while the app is containerized via Docker and automatically deployed to GitHub Pages through a GitHub Actions CI/CD pipeline. API keys are injected securely at build time and never committed to source. The project demonstrates practical skills in frontend development, LLM API integration, containerization, CI/CD automation, and secure configuration management.",
     actions: [
-      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/bash-scripting-trainer' },
-      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/bash-scripting-trainer' },
-    ],
-  },
-  {
-    title: 'Portfolio Project',
-    images: [
-      { src: '/assets/projects/portfolio(1).webp', alt: 'Portfolio Project Screenshot (1)' },
-      { src: '/assets/projects/portfolio(2).webp', alt: 'Portfolio Project Screenshot (2)' },
-    ],
-    description:
-      "This portfolio site is a static single-page app rebuilt with a modern stack: React 19, TypeScript (strict typing across components and data), and Vite 6 for fast dev and production builds. Styling uses Tailwind CSS v4 with the official Vite plugin, custom theme tokens in CSS, and a responsive layout—including a float-wrapped hero and project cards with an image carousel. Tooling includes ESLint 9 with TypeScript-aware rules and npm scripts for lint, typecheck, and build. The site is hosted on GitHub Pages and reflects ongoing practice in accessible markup, performance-minded assets, and maintainable project structure as I continue to ship polished front-end work.",
-    actions: [
-      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/JoeyScottSchronce.github.io' },
-      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/' },
+      { label: 'Project Repository', href: 'https://github.com/JoeyScottSchronce/go-concurrency-lab' },
+      { label: 'See the Website', href: 'https://joeyscottschronce.github.io/go-concurrency-lab/' },
     ],
   },
   {
