@@ -1,6 +1,7 @@
 import type { Project } from '../data/projects'
+import { ProjectImageCarousel } from './ProjectImageCarousel'
 
-export function ProjectCard({ title, imageSrc, imageAlt, description, actions }: Project) {
+export function ProjectCard({ title, images, description, actions }: Project) {
   return (
     <div className="w-full">
       <div className="mx-4 my-4 flex max-w-[95%] flex-col items-center justify-center gap-4 rounded-[15px] p-1">
@@ -8,9 +9,7 @@ export function ProjectCard({ title, imageSrc, imageAlt, description, actions }:
           {title}
         </h3>
         <div className="flex w-full flex-col items-center gap-4 p-4 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
-          <div className="relative mx-auto aspect-[11/8] w-full max-w-[550px] shrink-0 overflow-hidden rounded-[15px] lg:mx-0">
-            <img src={imageSrc} alt={imageAlt} className="h-full w-full object-cover" />
-          </div>
+          <ProjectImageCarousel images={images} />
           <div className="flex w-full min-w-0 flex-col items-center justify-start gap-4 text-center lg:items-end lg:text-left">
             <p className="m-2 w-full max-w-full text-base leading-relaxed text-foreground md:text-lg lg:max-w-[95%] lg:self-end">
               {description}
