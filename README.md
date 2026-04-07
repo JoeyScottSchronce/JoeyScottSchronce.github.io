@@ -1,7 +1,35 @@
-# JoeyScottSchronce.github.io
+# Joey Scott Schronce
 
-Hey, thanks for visiting!
+**Designing, creating, and delivering professional software** — with intention toward full-stack products you can actually ship: interfaces people use, APIs that behave, and infrastructure that stays up.
 
-I’m a dedicated and detail-oriented software developer with a strong foundation in web development. I routinely solve LeetCode and write testcases with Golang. I have a solid understanding of Test-Driven and Behavior-Driven Development, along with the DevOps, Agile, and Scrum methodologies.
+This repository is the source for my public portfolio: a React + TypeScript + Vite single-page app styled with Tailwind CSS, hosted on GitHub Pages. If you are here to evaluate how I work, the code, structure, and tooling here are part of the story; the **live site** is the full picture.
 
-In the early stages of my software development training, I've built scalable backend applications, prototyping with Python using the Flask and Django frameworks. I've built frontend apps using React. I've also created and managed CI/CD pipelines using Tekton, learned to use git for version control, created CRUD APIs with MongoDB, and deployed containerized applications to IBM Cloud Container Registry, using tools like Docker, Kubernetes, and OpenShift.
+---
+
+## Start here
+
+| Where | Link |
+| --- | --- |
+| **Portfolio (live)** | [joeyscottschronce.github.io](https://joeyscottschronce.github.io/) |
+| **LinkedIn** | [linkedin.com/in/joeyscottschronce](https://www.linkedin.com/in/joeyscottschronce/) |
+| **GitHub** | [github.com/JoeyScottSchronce](https://github.com/JoeyScottSchronce) |
+
+---
+
+## What I build
+
+I work across the stack: **TypeScript and React** on the client, **Go** on the server, **Google Cloud** and **Cloudflare** for deployment, and **Gemini** where AI features belong. I care about production habits — secrets off the client, stable API contracts, auth, billing when it matters, CORS and observability, and CI/CD that matches how the app runs in prod.
+
+**Ankiugen** ([ankiugen.com](https://ankiugen.com)) is my main recent product: an AI-powered flashcard generator with a Vite + React + TypeScript frontend and a Go API on Cloud Run, plus an open **Go library** for generating standard Anki `.apkg` files so others can build on the same format. The portfolio itself is a deliberate rebuild in the same spirit — strict TypeScript, accessible markup, and a layout and carousel experience that stay maintainable as the project list grows.
+
+Other public work highlighted on the site includes **BashMaster AI**, **Python Training Grounds**, and **Go Concurrency Lab** (interactive trainers with Gemini); a published **Go concurrency / TDD** learning track; and capstone-era work in **Flask**, **Django**, **PostgreSQL**, **MongoDB**, **Tekton**, and **IBM Cloud** — useful context for breadth and how I have applied TDD/BDD and microservice patterns in structured programs.
+
+---
+
+## Practice & presence
+
+I keep skills sharp with problem-solving practice and stay reachable on the usual channels: [LeetCode](https://leetcode.com/u/JoeyScottSchronce/), [HackerRank](https://www.hackerrank.com/profile/OnceBitten), [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9), and [X (@goodToGolang)](https://x.com/goodToGolang).
+
+---
+
+*If you are hiring for full-stack or backend-oriented roles where ownership, testing discipline, and cloud-native delivery matter, open the live portfolio and say hello on LinkedIn.*
