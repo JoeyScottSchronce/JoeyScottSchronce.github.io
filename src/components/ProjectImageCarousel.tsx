@@ -40,7 +40,7 @@ export function ProjectImageCarousel({ images, className }: ProjectImageCarousel
       aria-roledescription="carousel"
       aria-label="Project screenshots"
       className={[
-        'relative aspect-[11/8] w-full max-w-[550px] shrink-0 overflow-hidden rounded-[15px] mx-auto lg:mx-0',
+        'relative aspect-[11/8] w-full max-w-[550px] shrink-0 overflow-hidden rounded-[15px] mx-auto',
         className,
       ]
         .filter(Boolean)

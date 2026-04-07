@@ -41,7 +41,7 @@ export function HomeSection() {
               </p>
             </div>
           </div>
-          <p className="m-0 max-sm:col-span-2 max-sm:mt-12 max-sm:row-start-2 text-center text-sm leading-relaxed text-foreground sm:mt-0 sm:text-left md:text-base lg:text-lg">
+          <p className="m-0 max-sm:col-span-2 max-sm:mt-12 max-sm:row-start-2 text-center font-sans text-base leading-relaxed text-foreground sm:mt-0 sm:text-left md:text-lg lg:text-xl">
             {home.bio}
           </p>
         </div>
