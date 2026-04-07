@@ -6,17 +6,20 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 
 ---
 
-## Start here
+## Ways to contact me or learn more about me
 
-| Where | Link |
+| Sites | Links |
 | --- | --- |
-| **Portfolio (live)** | [joeyscottschronce.github.io](https://joeyscottschronce.github.io/) |
+| **This Portfolio** | [joeyscottschronce.github.io](https://joeyscottschronce.github.io/) |
 | **LinkedIn** | [linkedin.com/in/joeyscottschronce](https://www.linkedin.com/in/joeyscottschronce/) |
-| **GitHub** | [github.com/JoeyScottSchronce](https://github.com/JoeyScottSchronce) |
+| **X** | [X (@goodToGolang)](https://x.com/goodToGolang) |
+| **LeetCode** | [LeetCode](https://leetcode.com/u/JoeyScottSchronce/) |
+| **HackerRank** | [HackerRank](https://www.hackerrank.com/profile/OnceBitten) |
+| **CodeSignal** | [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9) |
 
 ---
 
-## What I build
+## What I've built
 
 I work across the stack: **TypeScript and React** on the client, **Go** on the server, **Google Cloud** and **Cloudflare** for deployment, and **Gemini** where AI features belong. I care about production habits — secrets off the client, stable API contracts, auth, billing when it matters, CORS and observability, and CI/CD that matches how the app runs in prod.
 
@@ -26,10 +29,4 @@ Other public work highlighted on the site includes **BashMaster AI**, **Python T
 
 ---
 
-## Practice & presence
-
-I keep skills sharp with problem-solving practice and stay reachable on the usual channels: [LeetCode](https://leetcode.com/u/JoeyScottSchronce/), [HackerRank](https://www.hackerrank.com/profile/OnceBitten), [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9), and [X (@goodToGolang)](https://x.com/goodToGolang).
-
----
-
-*If you are hiring for full-stack or backend-oriented roles where ownership, testing discipline, and cloud-native delivery matter, open the live portfolio and say hello on LinkedIn.*
+*If you are hiring for full-stack or backend-oriented roles where ownership, testing discipline, and cloud-native delivery matter, contact me on LinkedIn or email me at admin@ankiugen.com.*
