@@ -6,7 +6,7 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 
 ---
 
-## Ways to contact me or learn more about me
+## Ways to contact me or learn more
 
 | Sites | Links |
 | --- | --- |
@@ -16,6 +16,7 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 | **LeetCode** | [LeetCode](https://leetcode.com/u/JoeyScottSchronce/) |
 | **HackerRank** | [HackerRank](https://www.hackerrank.com/profile/OnceBitten) |
 | **CodeSignal** | [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9) |
+| **email** | admin@ankiugen.com |
 
 ---
 
