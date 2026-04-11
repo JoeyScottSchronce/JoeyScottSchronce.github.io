@@ -1,7 +1,7 @@
 export const socialLinks = [
   {
     href: 'https://leetcode.com/u/JoeyScottSchronce/',
-    iconSrc: '/assets/icons/leetcode.webp',
+    iconSrc: '/assets/icons/leetcode.svg',
     alt: 'LeetCode Icon',
     ariaLabel: 'Visit my LeetCode profile',
   },
@@ -25,13 +25,13 @@ export const socialLinks = [
   },
   {
     href: 'https://www.hackerrank.com/profile/OnceBitten',
-    iconSrc: '/assets/icons/hackerrank.webp',
+    iconSrc: '/assets/icons/hackerrank.svg',
     alt: 'HackerRank Icon',
     ariaLabel: 'Visit my HackerRank profile',
   },
   {
     href: 'https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9',
-    iconSrc: '/assets/icons/codesignal.webp',
+    iconSrc: '/assets/icons/codesignal.svg',
     alt: 'CodeSignal Icon',
     ariaLabel: 'Visit my CodeSignal profile',
   },
