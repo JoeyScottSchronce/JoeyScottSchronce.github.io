@@ -22,7 +22,7 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 
 ## What I've built
 
-I work across the stack: **TypeScript and React** on the client, **Go** on the server, **Google Cloud** and **Cloudflare** for deployment, and **Gemini** where AI features belong. I care about production habits — secrets off the client, stable API contracts, auth, billing when it matters, CORS and observability, and CI/CD that matches how the app runs in prod.
+I work across the stack: **TypeScript and React** on the client, **Go** on the server, **Google Cloud** and **Cloudflare** for deployment, and **HuggingFace** for AI features. I care about production habits — secrets off the client, stable API contracts, auth, billing when it matters, CORS and observability, and CI/CD that matches how the app runs in prod.
 
 **Ankiugen** ([ankiugen.com](https://ankiugen.com)) is my main recent product: an AI-powered flashcard generator with a Vite + React + TypeScript frontend and a Go API on Cloud Run, plus an open **Go library** for generating standard Anki `.apkg` files so others can build on the same format. The portfolio itself is a deliberate rebuild in the same spirit — strict TypeScript, accessible markup, and a layout and carousel experience that stay maintainable as the project list grows.
 
