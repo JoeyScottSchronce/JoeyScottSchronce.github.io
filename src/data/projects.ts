@@ -52,7 +52,7 @@ export const projects: Project[] = [
     ],
     description:
       "The text-only apkg Writer is a lightweight Go library that programmatically generates Anki .apkg flashcard packages (ZIP archives containing a SQLite database) exposing a minimal API of just a Card struct and a single WriteApkg function that writes a complete deck to any io.Writer. The project demonstrates strong Go fundamentals including idiomatic package design, interface-driven I/O, and deliberate separation of concerns, with zero dependencies on HTTP servers or UI layers. Built with Go modules, semantic versioning, and a full test suite, the library was architected with extensibility in mind. Version one is intentionally text-only, but the design accommodates future media support without breaking existing callers.",
-    actions: [{ label: 'See the Repo', href: 'https://github.com/JoeyScottSchronce/placeholder' }],
+    actions: [{ label: 'See the Repo', href: 'https://github.com/JoeyScottSchronce/text-only-apkgwriter' }],
   },
   {
     title: 'BashMaster AI',
