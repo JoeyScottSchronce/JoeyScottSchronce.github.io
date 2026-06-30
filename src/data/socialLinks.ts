@@ -6,10 +6,10 @@ export const socialLinks = [
     ariaLabel: 'Visit my LeetCode profile',
   },
   {
-    href: 'https://x.com/goodToGolang',
-    iconSrc: '/assets/icons/X.svg',
-    alt: 'X Icon',
-    ariaLabel: 'Visit my X profile',
+    href: 'https://profile.indeed.com/p/joeys-vvyx00f',
+    iconSrc: '/assets/icons/indeed.webp',
+    alt: 'Indeed Icon',
+    ariaLabel: 'View my Indeed Resume',
   },
   {
     href: 'https://www.linkedin.com/in/joeyscottschronce/',
