@@ -12,11 +12,9 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 | --- | --- |
 | **This Portfolio** | [joeyscottschronce.github.io](https://joeyscottschronce.github.io/) |
 | **LinkedIn** | [linkedin.com/in/joeyscottschronce](https://www.linkedin.com/in/joeyscottschronce/) |
-| **X** | [X (@goodToGolang)](https://x.com/goodToGolang) |
 | **LeetCode** | [LeetCode](https://leetcode.com/u/JoeyScottSchronce/) |
 | **HackerRank** | [HackerRank](https://www.hackerrank.com/profile/OnceBitten) |
 | **CodeSignal** | [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9) |
-| **email** | admin@ankiugen.com |
 
 ---
 
