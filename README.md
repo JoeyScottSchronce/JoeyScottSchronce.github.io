@@ -14,7 +14,6 @@ This repository is the source for my public portfolio: a React + TypeScript + Vi
 | **LinkedIn** | [linkedin.com/in/joeyscottschronce](https://www.linkedin.com/in/joeyscottschronce/) |
 | **LeetCode** | [LeetCode](https://leetcode.com/u/JoeyScottSchronce/) |
 | **HackerRank** | [HackerRank](https://www.hackerrank.com/profile/OnceBitten) |
-| **CodeSignal** | [CodeSignal](https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9) |
 
 ---
 
