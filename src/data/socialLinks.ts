@@ -29,10 +29,4 @@ export const socialLinks = [
     alt: 'HackerRank Icon',
     ariaLabel: 'Visit my HackerRank profile',
   },
-  {
-    href: 'https://codesignal.com/learn/profile/cmmcsnx1n00a8l504uqiaehj9',
-    iconSrc: '/assets/icons/codesignal.svg',
-    alt: 'CodeSignal Icon',
-    ariaLabel: 'Visit my CodeSignal profile',
-  },
 ] as const
